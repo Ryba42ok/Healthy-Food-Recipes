@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <recipe id="1">
+        <title>Овсяноблин с бананом</title>
+        <category>Завтрак</category>
+        <time>15</time>
+        <calories>320</calories>
+        <difficulty>Легко</difficulty>
+        <image>images/oatmeal-pancake.jpg</image>
+        <description>Полезный завтрак за 15 минут</description>
+        <ingredients>
+            <item>Овсяные хлопья - 3 ст.л</item>
+            <item>Яйцо - 2 шт</item>
+            <item>Банан - 1 шт</item>
+            <item>Молоко - 50 мл</item>
+        </ingredients>
+        <instructions>
+            <step>Смешать яйца с молоком</step>
+            <step>Добавить овсяные хлопья</step>
+            <step>Размять банан вилкой и добавить в смесь</step>
+            <step>Жарить на антипригарной сковороде по 3 минуты с каждой стороны</step>
+        </instructions>
+    </recipe>
+    
+    <recipe id="2">
+        <title>Салат с киноа и авокадо</title>
+        <category>Салат</category>
+        <time>25</time>
+        <calories>450</calories>
+        <difficulty>Средне</difficulty>
+        <image>images/quinoa-salad.jpg</image>
+        <description>Сытный салат с суперфудами</description>
+        <ingredients>
+            <item>Киноа - 1 стакан</item>
+            <item>Авокадо - 1 шт</item>
+            <item>Помидоры черри - 200 г</item>
+            <item>Огурец - 1 шт</item>
+            <item>Оливковое масло - 2 ст.л</item>
+            <item>Лимонный сок - 1 ст.л</item>
+        </ingredients>
+        <instructions>
+            <step>Отварить киноа в подсоленной воде 15 минут</step>
+            <step>Нарезать авокадо, помидоры и огурец кубиками</step>
+            <step>Смешать все ингредиенты</step>
+            <step>Заправить маслом и лимонным соком</step>
+        </instructions>
+    </recipe>
+</recipes>

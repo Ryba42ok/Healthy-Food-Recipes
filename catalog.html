@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Здоровое Питание - Главная</title>
+    <link rel="stylesheet" href="css/basic.css">
+</head>
+<body>
+    <!-- Шапка сайта (header) -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <a href="index.html" class="logo">
+
+                    <!-- SVG Логотип (простой текстовый, но можно заменить на иконку) -->
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2z" fill="#4CAF50" opacity="0.2"/>
+                        <path d="M16 6c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10z" fill="#4CAF50"/>
+                        <path d="M21 14h-3v-3h-4v3h-3v4h3v3h4v-3h3v-4z" fill="white"/>
+                    </svg>
+
+                    <span class="logo__text">Здоровое <br> Питание</span>
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="index.html" class="nav-list__link">Главная</a></li>
+                    <li class="nav-list__item"><a href="catalog.html?category=breakfast" class="nav-list__link">Завтраки</a></li>
+                    <li class="nav-list__item"><a href="catalog.html?category=lunch" class="nav-list__link">Обеды</a></li>
+                    <li class="nav-list__item"><a href="catalog.html?category=dinner" class="nav-list__link">Ужины</a></li>
+                    <li class="nav-list__item"><a href="about.html" class="nav-list__link">О нас</a></li>
+                </ul>
+            </nav>
+            <!-- Кнопка для мобильного меню (бургер) -->
+            <button class="header__burger" id="burgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- Мобильное меню (будет появляться по клику) -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-list__item"><a href="index.html" class="mobile-nav-list__link">Главная</a></li>
+                <li class="mobile-nav-list__item"><a href="catalog.html?category=breakfast" class="mobile-nav-list__link">Завтраки</a></li>
+                <li class="mobile-nav-list__item"><a href="catalog.html?category=lunch" class="mobile-nav-list__link">Обеды</a></li>
+                <li class="mobile-nav-list__item"><a href="catalog.html?category=dinner" class="mobile-nav-list__link">Ужины</a></li>
+                <li class="mobile-nav-list__item"><a href="about.html" class="mobile-nav-list__link">О нас</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p>© 2026 Здоровое Питание. Все права защищены.</p>
+                    <p>Курсовой проект по компьютерным языкам разметки</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript для мобильного меню -->
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const burger = document.getElementById('burgerBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            if (burger && mobileMenu) {
+                burger.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    mobileMenu.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
