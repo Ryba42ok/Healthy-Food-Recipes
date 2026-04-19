@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка рецепта... — Здоровое Питание</title>
+    <link rel="stylesheet" href="../css/recipe.css">
+    <link rel="stylesheet" href="../css/basic.css">
+</head>
+<body>
+   <header class="header">
+    <div class="container header__container">
+        <div class="header__logo">
+            <a href="index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" rx="12" fill="#00A83E"/>
+                    <path d="M20 12C16.134 12 13 15.134 13 19C13 22.866 16.134 26 20 26C23.866 26 27 22.866 27 19C27 15.134 23.866 12 20 12ZM20 24C17.2386 24 15 21.7614 15 19C15 16.2386 17.2386 14 20 14C22.7614 14 25 16.2386 25 19C25 21.7614 22.7614 24 20 24Z" fill="white"/>
+                </svg>
+                <span class="logo__text">Здоровое <br> Питание</span>
+            </a>
+        </div>
+
+        <nav class="header__nav">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="index.html" class="nav-list__link">Главная</a></li>
+                <li class="nav-list__item dropdown">
+                    <a href="catalog.html" class="nav-list__link dropdown__toggle nav-list__link--active">Каталог <span class="dropdown__arrow">⌵</span></a>
+                    <ul class="dropdown__menu">
+                        <li><a href="breakfasts.html" class="dropdown__link">Завтраки</a></li>
+                        <li><a href="lunchs.html" class="dropdown__link">Обеды</a></li>
+                        <li><a href="dinner.html" class="dropdown__link">Ужины</a></li>
+                        <li><a href="deserts.html" class="dropdown__link">Десерты</a></li>
+                        <li><a href="drinks.html" class="dropdown__link">Напитки</a></li>
+                    </ul>
+                </li>
+                <li class="nav-list__item"><a href="about.html" class="nav-list__link">О нас</a></li>
+                <li class="nav-list__item"><a href="#contacts" class="nav-list__link">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-list__item">
+                        <a href="index.html" class="mobile-nav-list__link">Главная</a>
+                    </li>
+                    
+                    <li class="mobile-nav-list__item mobile-dropdown">
+                        <a href="#" class="mobile-nav-list__link mobile-dropdown__toggle">
+                            Каталог <span class="dropdown__arrow">⌵</span>
+                        </a>
+                        <ul class="mobile-dropdown__menu">
+                            <li><a href="breakfasts.html" class="mobile-dropdown__link">Завтраки</a></li>
+                            <li><a href="lunchs.html" class="mobile-dropdown__link">Обеды</a></li>
+                            <li><a href="dinner.html" class="mobile-dropdown__link">Ужины</a></li>
+                            <li><a href="deserts.html" class="mobile-dropdown__link">Десерты</a></li>
+                            <li><a href="drinks.html" class="mobile-dropdown__link">Напитки</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="mobile-nav-list__item">
+                        <a href="about.html" class="mobile-nav-list__link">О нас</a>
+                    </li>
+                    <li class="mobile-nav-list__item">
+                        <a href="contacts.html" class="mobile-nav-list__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__search">
+            <div class="search-bar">
+                <svg class="search-bar__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" class="search-bar__input" placeholder="Поиск рецептов...">
+            </div>
+        </div>
+
+        <button class="header__burger" id="burgerBtn">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+    <main class="recipe-detail">
+        <div class="container">
+            <nav class="breadcrumbs">
+                <a href="../catalog.html" class="breadcrumbs__link">← к каталогу</a>
+            </nav>
+
+            <section class="recipe-hero" id="recipeHero">
+                <div class="recipe-hero__image-container">
+                    <img src="" alt="" id="mainImage" class="recipe-hero__img">
+                    <div class="recipe-hero__overlay">
+                        <span class="recipe-category" id="categoryBadge">Завтраки</span>
+                        <h1 class="recipe-hero__title" id="recipeTitle">Загрузка...</h1>
+                        <p class="recipe-hero__desc" id="recipeDesc"></p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="recipe-stats-bar">
+                <div class="stat-item">
+                    <span class="stat-item__icon">🕒</span>
+                    <div class="stat-item__text">
+                        <span class="label">Время приготовления</span>
+                        <b id="statTime">-</b>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__icon">👥</span>
+                    <div class="stat-item__text">
+                        <span class="label">Порции</span>
+                        <b id="statServings">-</b>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__icon">🔥</span>
+                    <div class="stat-item__text">
+                        <span class="label">Калории</span>
+                        <b id="statCalories">-</b>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__icon">🍳</span>
+                    <div class="stat-item__text">
+                        <span class="label">Сложность</span>
+                        <b id="statDifficulty">-</b>
+                    </div>
+                </div>
+            </div>
+
+            <section class="nutrition-section">
+                <h2 class="section-title">Пищевая ценность (на порцию)</h2>
+                <div class="nutrition-grid">
+                    <div class="nutrition-card nutrition-card--green">
+                        <b id="nutrProtein">-</b>
+                        <span>Белки</span>
+                    </div>
+                    <div class="nutrition-card nutrition-card--blue">
+                        <b id="nutrCarbs">-</b>
+                        <span>Углеводы</span>
+                    </div>
+                    <div class="nutrition-card nutrition-card--orange">
+                        <b id="nutrFat">-</b>
+                        <span>Жиры</span>
+                    </div>
+                    <div class="nutrition-card nutrition-card--purple">
+                        <b id="nutrFiber">-</b>
+                        <span>Клетчатка</span>
+                    </div>
+                </div>
+            </section>
+
+           <div class="recipe-grid-main">
+                <aside class="ingredients-block">
+                    <h2 class="section-title">Ингредиенты</h2>
+                    <ul class="ingredients-list" id="ingredientsList"></ul>
+                </aside>
+
+                <article class="instructions-block">
+                    <h2 class="section-title">Приготовление</h2>
+                    <div class="instructions-list" id="instructionsList"></div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p>© 2026 Здоровое Питание. Все права защищены.</p>
+                    <p>Курсовой проект по компьютерным языкам разметки</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<link rel="stylesheet" href="../css/recipe.css">
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipeId = urlParams.get('id');
+
+    if (!recipeId) {
+        window.location.href = '../catalog.html'; 
+        return;
+    }
+
+    fetch('../data/recipes.xml') 
+        .then(res => {
+            if (!res.ok) throw new Error('Ошибка загрузки XML');
+            return res.text();
+        })
+        .then(xmlData => {
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(xmlData, "text/xml");
+            // Ищем конкретный рецепт по ID
+            const recipe = xml.querySelector(`recipe[id="${recipeId}"]`);
+
+            if (recipe) {
+                renderRecipe(recipe);
+            } else {
+                document.getElementById('recipeTitle').textContent = "Рецепт не найден";
+            }
+        })
+        .catch(err => console.error('Ошибка:', err));
+
+    function renderRecipe(recipe) {
+        // 1. Основная информация
+        document.getElementById('recipeTitle').textContent = recipe.querySelector('title').textContent;
+        document.getElementById('recipeDesc').textContent = recipe.querySelector('description').textContent;
+        document.getElementById('categoryBadge').textContent = recipe.querySelector('category').textContent;
+        
+        // Картинка (поднимаемся выше в корень и идем в папку data)
+        const imageFile = recipe.querySelector('image').textContent;
+        document.getElementById('mainImage').src = '../data/' + imageFile;
+
+        // 2. Статистика (внутри <stats>)
+        const stats = recipe.querySelector('stats');
+        document.getElementById('statTime').textContent = stats.querySelector('prepTime').textContent;
+        document.getElementById('statServings').textContent = stats.querySelector('servings').textContent;
+        document.getElementById('statCalories').textContent = stats.querySelector('calories').textContent;
+        document.getElementById('statDifficulty').textContent = stats.querySelector('difficulty').textContent;
+
+        // 3. Пищевая ценность (внутри <nutrition>)
+        const nutr = recipe.querySelector('nutrition');
+        document.getElementById('nutrProtein').textContent = nutr.querySelector('protein').textContent + 'г';
+        document.getElementById('nutrCarbs').textContent = nutr.querySelector('carbs').textContent + 'г';
+        document.getElementById('nutrFat').textContent = nutr.querySelector('fat').textContent + 'г';
+        document.getElementById('nutrFiber').textContent = nutr.querySelector('fiber').textContent + 'г';
+
+        // 4. Список ингредиентов
+        const ingredientsList = document.getElementById('ingredientsList');
+        recipe.querySelectorAll('ingredients item').forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item.textContent;
+            ingredientsList.appendChild(li);
+        });
+
+        // 5. Инструкции по приготовлению
+        const instructionsList = document.getElementById('instructionsList');
+        recipe.querySelectorAll('instructions step').forEach((step, index) => {
+            const stepDiv = document.createElement('div');
+            stepDiv.className = 'step-item';
+            stepDiv.innerHTML = `
+                <div class="step-number">${index + 1}</div>
+                <div class="step-text">${step.textContent}</div>
+            `;
+            instructionsList.appendChild(stepDiv);
+        });
+        
+        // Меняем title вкладки браузера
+        document.title = recipe.querySelector('title').textContent + " — Здоровое Питание";
+    
+    
+    
+    }
+
+
+
+    
+});
+</script>

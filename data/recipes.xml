@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <recipe id="1">
+        <title>Боул с киноа и авокадо</title>
+        <category>Завтраки</category>
+        <description>Питательный и вкусный боул с киноа, авокадо, свежими овощами и заправкой из лимона</description>
+        <image>kinoa.png</image>
+        
+        <stats>
+            <prepTime>15 мин + 20 мин</prepTime>
+            <servings>2</servings>
+            <calories>420 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">12</protein>
+            <carbs unit="г">45</carbs>
+            <fat unit="г">18</fat>
+            <fiber unit="г">10</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>1 стакан киноа</item>
+            <item>1 авокадо</item>
+            <item>1 огурец</item>
+            <item>200г помидоров черри</item>
+            <item>100г шпината</item>
+            <item>2 ст.л. оливкового масла</item>
+            <item>Сок 1 лимона</item>
+            <item>Соль, перец по вкусу</item>
+            <item>Семена кунжута для украшения</item>
+        </ingredients>
+
+        <instructions>
+            <step>Промойте киноа под холодной водой</step>
+            <step>Отварите киноа в подсоленной воде 15-20 минут</step>
+            <step>Нарежьте авокадо, огурец и помидоры</step>
+            <step>Приготовьте заправку из оливкового масла и лимонного сока</step>
+            <step>Выложите киноа в миску, добавьте шпинат и овощи</step>
+            <step>Полейте заправкой и посыпьте семенами кунжута</step>
+        </instructions>
+    </recipe>
+    <recipe id="2">
+        <title>Тост с авокадо и яйцом</title>
+        <category>Завтраки</category>
+        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
+        <image>avacad.png</image>
+        
+        <stats>
+            <prepTime>5 мин + 5 мин</prepTime>
+            <servings>1</servings>
+            <calories>350 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">16</protein>
+            <carbs unit="г">32</carbs>
+            <fat unit="г">22</fat>
+            <fiber unit="г">12</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 ломтика цельнозернового хлеба</item>
+            <item>1 спелое авокадо</item>
+            <item>2 яйца</item>
+            <item>Соль, перец, хлопья чили по вкусу</item>
+            <item>Сок лимона</item>
+            <item>Свежая зелень</item>
+        </ingredients>
+
+        <instructions>
+            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
+            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
+            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
+            <step>Намажьте авокадо на тосты</step>
+            <step>Выложите яйца сверху</step>
+            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+        </instructions>
+    </recipe><recipe id="2">
+        <title>Тост с авокадо и яйцом</title>
+        <category>Завтраки</category>
+        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
+        <image>avacad.png</image>
+        
+        <stats>
+            <prepTime>5 мин + 5 мин</prepTime>
+            <servings>1</servings>
+            <calories>350 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">16</protein>
+            <carbs unit="г">32</carbs>
+            <fat unit="г">22</fat>
+            <fiber unit="г">12</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 ломтика цельнозернового хлеба</item>
+            <item>1 спелое авокадо</item>
+            <item>2 яйца</item>
+            <item>Соль, перец, хлопья чили по вкусу</item>
+            <item>Сок лимона</item>
+            <item>Свежая зелень</item>
+        </ingredients>
+
+        <instructions>
+            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
+            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
+            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
+            <step>Намажьте авокадо на тосты</step>
+            <step>Выложите яйца сверху</step>
+            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+        </instructions>
+    </recipe><recipe id="2">
+        <title>Тост с авокадо и яйцом</title>
+        <category>Завтраки</category>
+        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
+        <image>avacad.png</image>
+        
+        <stats>
+            <prepTime>5 мин + 5 мин</prepTime>
+            <servings>1</servings>
+            <calories>350 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">16</protein>
+            <carbs unit="г">32</carbs>
+            <fat unit="г">22</fat>
+            <fiber unit="г">12</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 ломтика цельнозернового хлеба</item>
+            <item>1 спелое авокадо</item>
+            <item>2 яйца</item>
+            <item>Соль, перец, хлопья чили по вкусу</item>
+            <item>Сок лимона</item>
+            <item>Свежая зелень</item>
+        </ingredients>
+
+        <instructions>
+            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
+            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
+            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
+            <step>Намажьте авокадо на тосты</step>
+            <step>Выложите яйца сверху</step>
+            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+        </instructions>
+    </recipe><recipe id="2">
+        <title>Тост с авокадо и яйцом</title>
+        <category>Завтраки</category>
+        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
+        <image>avacad.png</image>
+        
+        <stats>
+            <prepTime>5 мин + 5 мин</prepTime>
+            <servings>1</servings>
+            <calories>350 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">16</protein>
+            <carbs unit="г">32</carbs>
+            <fat unit="г">22</fat>
+            <fiber unit="г">12</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 ломтика цельнозернового хлеба</item>
+            <item>1 спелое авокадо</item>
+            <item>2 яйца</item>
+            <item>Соль, перец, хлопья чили по вкусу</item>
+            <item>Сок лимона</item>
+            <item>Свежая зелень</item>
+        </ingredients>
+
+        <instructions>
+            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
+            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
+            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
+            <step>Намажьте авокадо на тосты</step>
+            <step>Выложите яйца сверху</step>
+            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+        </instructions>
+    </recipe>
+    <recipe id="3">
+        <title>Запеченный лосось с овощами</title>
+        <category>Обеды</category>
+        <description>Сочный лосось с овощами, запеченный в духовке с травами и лимоном</description>
+        <image>salmon.png</image>
+        
+        <stats>
+            <prepTime>10 мин + 25 мин</prepTime>
+            <servings>2</servings>
+            <calories>480 ккал</calories>
+            <difficulty>Средне</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">35</protein>
+            <carbs unit="г">18</carbs>
+            <fat unit="г">28</fat>
+            <fiber unit="г">8</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 филе лосося (по 150г)</item>
+            <item>200г брокколи</item>
+            <item>200г цветной капусты</item>
+            <item>2 моркови</item>
+            <item>3 ст.л. оливкового масла</item>
+            <item>1 лимон</item>
+            <item>Чеснок, тимьян, розмарин</item>
+            <item>Соль, перец</item>
+        </ingredients>
+
+        <instructions>
+            <step>Разогрейте духовку до 200°С</step>
+            <step>Нарежьте овощи средними кусочками</step>
+            <step>Выложите овощи на противень, сбрызните маслом</step>
+            <step>Положите филе лосося, добавьте травы и ломтики лимона</step>
+            <step>Запекайте 20-25 минут</step>
+            <step>Подавайте горячим с дольками лимона</step>
+        </instructions>
+    </recipe>
+     <recipe id="4">
+        <title>Овощи в воке</title>
+        <category>Ужины</category>
+        <description>Хрустящие овощи, обжаренные в воке с соевым соусом и имбирем</description>
+        <image>veget_in_voc.png</image>
+        
+        <stats>
+            <prepTime>15 мин + 10 мин</prepTime>
+            <servings>2</servings>
+            <calories>220 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">8</protein>
+            <carbs unit="г">28</carbs>
+            <fat unit="г">8</fat>
+            <fiber unit="г">10</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>200г брокколи</item>
+            <item>1 болгарский перец</item>
+            <item>150г стручковой фасоли</item>
+            <item>1 морковь</item>
+            <item>2 зубчика чеснока</item>
+            <item>1 см корня имбиря</item>
+            <item>2 ст.л. соевого соуса</item>
+            <item>1 ст.л. кунжутного масла</item>
+            <item>Семена кунжута</item>
+        </ingredients>
+
+        <instructions>
+            <step>Нарежьте все овощи одинаковыми кусочками</step>
+            <step>Измельчите чеснок и имбирь</step>
+            <step>Разогрейте вок на сильном огне</step>
+            <step>Обжарьте чеснок и имбирь 30 секунд</step>
+            <step>Добавьте овощи и жарьте 5-7 минут, помешивая</step>
+            <step>Влейте соевый соус и кунжутное масло</step>
+            <step>Посыпьте кунжутом и подавайте</step>
+        </instructions>
+    </recipe>
+</recipes>
