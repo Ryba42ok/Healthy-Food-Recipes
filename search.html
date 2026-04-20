@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Здоровое Питание - Каталог</title>
+    <title>Здоровое Питание - Главная</title>
     <link rel="stylesheet" href="css/eat.css">
     <link rel="stylesheet" href="css/basic.css">
-    
+    <script src="js/burgers.js"></script>
 </head>
-<body data-category="Десерты">
-    <!-- Шапка сайта (header) -->
-     <header class="header">
+
+<body data-category="search"> 
+
+    <header class="header">
     <div class="container header__container">
         <div class="header__logo">
             <a href="index.html" class="logo">
@@ -24,9 +25,9 @@
 
         <nav class="header__nav">
             <ul class="nav-list">
-                <li class="nav-list__item"><a href="index.html" class="nav-list__link">Главная</a></li>
+                <li class="nav-list__item"><a href="index.html" class="nav-list__link nav-list__link--active">Главная</a></li>
                 <li class="nav-list__item dropdown">
-                    <a href="catalog.html" class="nav-list__link dropdown__toggle nav-list__link--active">Каталог <span class="dropdown__arrow">⌵</span></a>
+                    <a href="catalog.html" class="nav-list__link dropdown__toggle">Каталог <span class="dropdown__arrow">⌵</span></a>
                     <ul class="dropdown__menu">
                         <li><a href="breakfasts.html" class="dropdown__link">Завтраки</a></li>
                         <li><a href="lunchs.html" class="dropdown__link">Обеды</a></li>
@@ -86,28 +87,14 @@
     </div>
 </header>
 
-     <main  class="catalog-page">
-        <div class="container">
-
-            <nav class="breadc  rumbs">
-                <a href="index.html" class="breadcrumbs__link">
-                    ← Назад к главной
-                </a>
-            </nav>
-
-            <header class="catalog-header">
-                <h1 class="catalog-title">Десерты</h1>
-                <p id="recipeCount" class="catalog-count">Загрузка рецептов...</p>
-            </header>
-
-            <div id="recipesGrid" class="recipes-grid"></div>
-        </div>
+    <main class="container">
+        <h1 id="searchTitle">Результаты поиска</h1>
+        <p id="recipeCount">Поиск...</p>
+        <div id="recipesGrid" class="recipes-grid">
+            </div>
     </main>
 
-
-
- <!-- Подвал -->
-    <footer class="footer">
+  <footer class="footer">
         <div class="container">
             <div class="footer__content">
                 <div class="footer__info">
@@ -118,9 +105,7 @@
         </div>
     </footer>
 
+    <script src="js/catalog.js"></script>
+
+
 </body>
-
-<script src="js/burgers.js"></script>
-<script src="js/catalog.js"></script>
-
-</html>

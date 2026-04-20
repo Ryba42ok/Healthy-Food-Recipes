@@ -1,0 +1,142 @@
+.about-hero {
+  padding: 60px 0 40px;
+  text-align: center;
+  background: linear-gradient(to bottom, #E8F5E9 50%, #FFFFFF 100%);
+}
+.about-hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #27AE60;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.about-hero__title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1A1D1F;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.about-hero__title span {
+  color: #27AE60;
+}
+.about-hero__description {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6F767E;
+}
+
+.about-page {
+  padding: 0 0 40px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.about-card {
+  font-size: 18px;
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+  color: #666666;
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+.about-card p {
+  margin-bottom: 20px;
+}
+.about-card p:last-child {
+  margin-bottom: 0;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.value-card {
+  background: #FFFFFF;
+  padding: 40px 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.value-card:hover {
+  transform: translateY(-10px);
+}
+.value-card__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.value-card__icon.target {
+  background: #E8F5E9;
+  color: #4CAF50;
+}
+.value-card__icon.leaf {
+  background: #E3F2FD;
+  color: #2196F3;
+}
+.value-card__icon.quality {
+  background: #F3E5F5;
+  color: #9C27B0;
+}
+.value-card h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.cta-card {
+  background: #4CAF50;
+  color: #FFFFFF;
+  padding: 60px;
+  border-radius: 24px;
+  text-align: center;
+}
+.cta-card h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.cta-card p {
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.btn--white {
+  background: #FFFFFF;
+  color: #4CAF50;
+  padding: 15px 35px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  transition: background 0.3s;
+}
+.btn--white:hover {
+  background: #f0f0f0;
+}/*# sourceMappingURL=about.css.map */

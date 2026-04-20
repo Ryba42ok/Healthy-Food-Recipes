@@ -78,7 +78,8 @@
             <step>Выложите яйца сверху</step>
             <step>Посыпьте перцем, хлопьями чили и зеленью</step>
         </instructions>
-    </recipe><recipe id="2">
+    </recipe>
+    <recipe id="2">
         <title>Тост с авокадо и яйцом</title>
         <category>Завтраки</category>
         <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
@@ -115,7 +116,48 @@
             <step>Выложите яйца сверху</step>
             <step>Посыпьте перцем, хлопьями чили и зеленью</step>
         </instructions>
-    </recipe><recipe id="2">
+    </recipe>
+
+<recipe id="2">
+        <title>Тост с авокадо и яйцом</title>
+        <category>Завтраки</category>
+        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
+        <image>avacad.png</image>
+        
+        <stats>
+            <prepTime>5 мин + 5 мин</prepTime>
+            <servings>1</servings>
+            <calories>350 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">16</protein>
+            <carbs unit="г">32</carbs>
+            <fat unit="г">22</fat>
+            <fiber unit="г">12</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 ломтика цельнозернового хлеба</item>
+            <item>1 спелое авокадо</item>
+            <item>2 яйца</item>
+            <item>Соль, перец, хлопья чили по вкусу</item>
+            <item>Сок лимона</item>
+            <item>Свежая зелень</item>
+        </ingredients>
+
+        <instructions>
+            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
+            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
+            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
+            <step>Намажьте авокадо на тосты</step>
+            <step>Выложите яйца сверху</step>
+            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+        </instructions>
+    </recipe>
+
+    <recipe id="2">
         <title>Тост с авокадо и яйцом</title>
         <category>Завтраки</category>
         <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>

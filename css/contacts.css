@@ -1,0 +1,210 @@
+.contacts-page {
+  padding-bottom: 80px;
+}
+
+.contacts-hero {
+  background: linear-gradient(to bottom, #E8F5E9 50%, #FFFFFF 100%);
+  text-align: center;
+  padding: 60px 0 40px;
+}
+.contacts-hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #E2F7E3;
+  color: #4CAF50;
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contacts-hero__title {
+  font-size: 48px;
+  color: #1A1D1F;
+  margin-bottom: 16px;
+}
+.contacts-hero__description {
+  color: #6F767E;
+  font-size: 18px;
+}
+
+.contacts-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .contacts-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-item-card {
+  background: #FFFFFF;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+.contact-item-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contact-item-card__icon--green {
+  background: #E8F5E9;
+  color: #4CAF50;
+}
+.contact-item-card__icon--blue {
+  background: #E3F2FD;
+  color: #2196F3;
+}
+.contact-item-card__icon--purple {
+  background: #F3E5F5;
+  color: #9C27B0;
+}
+.contact-item-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #1A1D1F;
+}
+.contact-item-card p {
+  color: #6F767E;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.contact-item-card .contact-link, .contact-item-card address {
+  font-style: normal;
+  color: #6C5DD3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.work-time-banner {
+  margin-bottom: 60px;
+}
+.work-time-banner__content {
+  background: #4CAF50;
+  border-radius: 24px;
+  padding: 32px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .work-time-banner__content {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+}
+.work-time-banner .title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.work-time-banner .title-group h2 {
+  font-size: 24px;
+  margin: 0;
+}
+.work-time-banner .time-schedule {
+  display: flex;
+  gap: 60px;
+}
+@media (max-width: 768px) {
+  .work-time-banner .time-schedule {
+    gap: 20px;
+  }
+}
+.work-time-banner .time-schedule .schedule-col {
+  display: flex;
+  flex-direction: column;
+}
+.work-time-banner .time-schedule .schedule-col .days {
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.work-time-banner .time-schedule .schedule-col .hours {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.feedback-card {
+  background: #FFFFFF;
+  padding: 60px;
+  border-radius: 32px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.feedback-card h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #1A1D1F;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 14px 20px;
+  border: 2px solid #F4F4F4;
+  border-radius: 12px;
+  background: #F4F4F4;
+  transition: all 0.3s;
+}
+.form-group input:focus, .form-group textarea:focus {
+  border-color: #4CAF50;
+  background: #FFFFFF;
+  outline: none;
+}
+
+.btn-send {
+  background: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.btn-send:hover {
+  background: #388E3C;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #9A9FA5;
+  font-size: 14px;
+}/*# sourceMappingURL=contacts.css.map */
