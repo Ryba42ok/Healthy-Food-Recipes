@@ -1,12 +1,4 @@
-$primary-color: #4CAF50;
-$primary-dark: #388E3C;
-$primary-light: #E8F5E9;
-$text-dark: #333333;
-$text-light: #666666;
-$white: #FFFFFF;
-$shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-$green-to-white-gradient: linear-gradient(to bottom, $primary-light 50%, $white 100%);
-
+@import 'vars.scss';
 // Миксины для адаптивности
 @mixin mobile {
     @media (max-width: 768px) {

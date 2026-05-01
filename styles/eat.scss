@@ -101,9 +101,7 @@ body {
         grid-template-columns: 1fr; // Одна колонка
         gap: 20px;
     }
-}
-
-// Карточка рецепта
+}// Карточка рецепта
 .recipe-card {
     background: $white;
     border-radius: 16px;
@@ -204,5 +202,36 @@ body {
 
     svg {
         stroke: #D1D5DB;
+    }
+}
+
+#searchTitle, 
+.error-msg {
+     @include mobile()
+    {
+    // 1. Управляем переносом слов
+    overflow-wrap: break-word; 
+    word-wrap: break-word;     
+    word-break: break-all;     
+    
+
+   
+    // 2. Ограничиваем ширину
+    display: block;            
+    max-width: 100vw;          
+    box-sizing: border-box;    
+    padding: 0 15px;          
+    
+    // 3. Отключаем горизонтальный скролл на уровне текста
+    overflow-x: hidden;
+    }
+}
+
+
+// Если заголовок слишком огромный на мобилках, уменьшим шрифт
+@include mobile {
+    #searchTitle {
+        font-size: 24px;       
+        line-height: 1.2;
     }
 }

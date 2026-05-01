@@ -45,9 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Если это страница поиска, меняем заголовок
         const titleTag = document.getElementById('searchTitle');
-        if (isSearchPage && titleTag) {
-            titleTag.textContent = `Результаты по запросу: "${filterText}"`;
-        }
+if (isSearchPage && titleTag) {
+    // Если filterText пустой или null, пишем "Все рецепты", иначе - сам запрос
+    const displayText = filterText && filterText !== "null" ? `"${filterText}"` : "Все рецепты";
+    titleTag.textContent = `Результаты по запросу: ${displayText}`;
+}
 
         recipes.forEach(recipe => {
             const title = recipe.querySelector('title').textContent;
