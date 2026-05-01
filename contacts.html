@@ -15,10 +15,7 @@
     <div class="container header__container">
         <div class="header__logo">
             <a href="index.html" class="logo">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="40" height="40" rx="12" fill="#00A83E"/>
-                    <path d="M20 12C16.134 12 13 15.134 13 19C13 22.866 16.134 26 20 26C23.866 26 27 22.866 27 19C27 15.134 23.866 12 20 12ZM20 24C17.2386 24 15 21.7614 15 19C15 16.2386 17.2386 14 20 14C22.7614 14 25 16.2386 25 19C25 21.7614 22.7614 24 20 24Z" fill="white"/>
-                </svg>
+                <img class="" src="data/logo.svg" alt="">
                 <span class="logo__text">Здоровое <br> Питание</span>
             </a>
         </div>
@@ -81,9 +78,30 @@
             </div>
         </div>
 
-        <button class="header__burger" id="burgerBtn">
-            <span></span><span></span><span></span>
-        </button>
+          <div class="header__mobile-controls">
+    <!-- Новая кнопка лупы для телефона -->
+    <button class="header__search-toggle" id="searchToggle">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </button>
+    
+    <!-- Твоя существующая кнопка бургера теперь внутри этого контейнера -->
+    <button class="header__burger" id="burgerBtn">
+        <span></span><span></span><span></span>
+    </button>
+</div>
+
+<!-- Вставляем саму панель поиска СРАЗУ после header__container, но внутри header -->
+<div class="mobile-search" id="mobileSearch">
+    <div class="container">
+        <div class="mobile-search__content">
+            <input type="text" class="search-bar__input" placeholder="Поиск рецептов...">
+            <button class="mobile-search__close" id="searchClose">✕</button>
+        </div>
+    </div>
+</div>
     </div>
 </header>
 
@@ -106,7 +124,7 @@
             </div>
             <h3>Телефон</h3>
             <p>Звоните нам в любое время</p>
-            <a href="tel:+79991234567" class="contact-link">+7 (999) 123-45-67</a>
+            <a href="tel:+79991234567" class="contact-link">+375447402210</a>
         </div>
 
         <div class="contact-item-card">
@@ -115,7 +133,7 @@
             </div>
             <h3>Email</h3>
             <p>Напишите нам письмо</p>
-            <a href="mailto:info@healthyfood.ru" class="contact-link">info@healthyfood.ru</a>
+            <a href="mailto:info@healthyfood.ru" class="contact-link">vovagorevoy@gmail.com</a>
         </div>
 
         <div class="contact-item-card">
@@ -124,7 +142,7 @@
             </div>
             <h3>Адрес</h3>
             <p>Наш офис</p>
-            <address>г. Москва, ул. Здоровья, д. 10</address>
+            <address>Ул. Белорусская 21</address>
         </div>
     </section>
 
@@ -191,5 +209,6 @@
     </footer>
 
     <script src="js/catalog.js"></script>
+    <script src="js/burgers.js"></script>
 </body>
 </html>

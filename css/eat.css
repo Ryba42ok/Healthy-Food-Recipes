@@ -1,6 +1,10 @@
+body {
+  background: linear-gradient(to bottom, #E8F5E9 50%, #FFFFFF 100%);
+  background-repeat: no-repeat;
+}
+
 .catalog-page {
   padding: 60px 0;
-  background-color: #F9FAFB;
 }
 
 .breadcrumbs {
@@ -59,12 +63,13 @@
 
 .recipes-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 30px;
+  width: 100%;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .recipes-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (max-width: 768px) {

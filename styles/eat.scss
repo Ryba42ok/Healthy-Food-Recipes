@@ -1,0 +1,208 @@
+@import 'vars.scss';
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 769px) and (max-width: 1024px) {
+        @content;
+    }
+}   
+
+body {
+    background: $green-to-white-gradient;
+    background-repeat: no-repeat;
+}
+
+.catalog-page {
+    padding: 60px 0;
+}
+
+// Хлебные крошки
+.breadcrumbs {
+    margin-bottom: 40px;
+
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        color: $text-light;
+        font-size: 14px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: $primary-color;
+        }
+
+        svg {
+            stroke: currentColor;
+        }
+    }
+}
+
+// Шапка каталога
+.catalog-header {
+    margin-bottom: 30px;
+}
+
+.catalog-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: $text-dark;
+    margin-bottom: 8px;
+}
+
+.catalog-count {
+    font-size: 16px;
+    color: $text-light;
+}
+
+// Строка поиска (специфичная для страницы)
+.catalog-search {
+    margin-bottom: 50px;
+
+    .search-bar {
+        max-width: 100%; // Во всю ширину на этой странице
+
+        &__input {
+            border: 1px solid #E5E7EB; // Легкая обводка
+            border-radius: 12px;
+            padding-left: 50px; // Больше отступ для иконки
+
+            &:focus {
+                border-color: $primary-color;
+            }
+        }
+
+        &__icon {
+            left: 18px;
+        }
+    }
+}
+
+// Сетка рецептов
+.recipes-grid {
+    display: grid;
+    // Используем minmax, чтобы карточки не сжимались в "ноль"
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    gap: 30px;
+    width: 100%; // Гарантируем ширину
+
+    @include tablet {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include mobile {
+        grid-template-columns: 1fr; // Одна колонка
+        gap: 20px;
+    }
+}
+
+// Карточка рецепта
+.recipe-card {
+    background: $white;
+    border-radius: 16px;
+    overflow: hidden; // Чтобы картинка не вылезала
+    box-shadow: $shadow;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none; // Если карточка целиком ссылка
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    &__image-wrapper {
+        position: relative;
+        padding-top: 65%; // Соотношение сторон картинки
+        overflow: hidden;
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // Заполняет пространство без искажений
+        transition: transform 0.5s ease;
+    }
+
+    &:hover &__image {
+        transform: scale(1.05); // Легкий зум при наведении
+    }
+
+    &__badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: rgba($white, 0.9);
+        color: $text-dark;
+        padding: 6px 14px;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 600;
+        z-index: 1;
+    }
+
+    &__content {
+        padding: 25px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__link {
+        text-decoration: none; 
+      
+        
+        &:hover, &:focus, &:active {
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: $text-dark;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    &__info {
+        display: flex;
+        gap: 20px;
+        border-top: 1px solid #F3F4F6;
+        padding-top: 15px;
+
+        @include mobile {
+            gap: 15px;
+            font-size: 13px;
+        }
+    }
+}
+.recipe-card__info {
+    color: $primary-color;
+}
+
+// Элементы КБЖУ/Время
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: $text-light;
+    font-size: 14px;
+    font-weight: 500;
+
+    svg {
+        stroke: #D1D5DB;
+    }
+}

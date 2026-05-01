@@ -1,7 +1,12 @@
 @charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
 body {
   background: linear-gradient(to bottom, #E8F5E9 50%, #FFFFFF 100%);
   font-family: "Segoe UI";
+  background-repeat: no-repeat;
   color: #333333;
   margin: 0;
   padding: 0;
@@ -72,8 +77,9 @@ body {
 }
 @media (max-width: 768px) {
   .recipe-stats-bar {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* На очень узких экранах делаем 2 столбика по 2 элемента */
+    gap: 10px 5px;
   }
 }
 .recipe-stats-bar .stat-item {
@@ -196,13 +202,12 @@ body {
 
 .recipe-grid-main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 30px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 40px 0;
   align-items: start;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .recipe-grid-main {
     grid-template-columns: 1fr;
   }
@@ -213,5 +218,5 @@ body {
   padding: 30px;
   border-radius: 24px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  height: 100%;
+  height: auto;
 }/*# sourceMappingURL=recipe.css.map */

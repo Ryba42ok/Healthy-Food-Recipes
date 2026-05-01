@@ -5,35 +5,33 @@
     <title>Загрузка рецепта... — Здоровое Питание</title>
     <link rel="stylesheet" href="../css/recipe.css">
     <link rel="stylesheet" href="../css/basic.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
    <header class="header">
     <div class="container header__container">
         <div class="header__logo">
-            <a href="index.html" class="logo">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="40" height="40" rx="12" fill="#00A83E"/>
-                    <path d="M20 12C16.134 12 13 15.134 13 19C13 22.866 16.134 26 20 26C23.866 26 27 22.866 27 19C27 15.134 23.866 12 20 12ZM20 24C17.2386 24 15 21.7614 15 19C15 16.2386 17.2386 14 20 14C22.7614 14 25 16.2386 25 19C25 21.7614 22.7614 24 20 24Z" fill="white"/>
-                </svg>
+            <a href="../index.html" class="logo">
+                <img class="" src="../data/logo.svg" alt="">
                 <span class="logo__text">Здоровое <br> Питание</span>
             </a>
         </div>
 
         <nav class="header__nav">
             <ul class="nav-list">
-                <li class="nav-list__item"><a href="index.html" class="nav-list__link">Главная</a></li>
+                <li class="nav-list__item"><a href="../index.html" class="nav-list__link">Главная</a></li>
                 <li class="nav-list__item dropdown">
                     <a href="catalog.html" class="nav-list__link dropdown__toggle nav-list__link--active">Каталог <span class="dropdown__arrow">⌵</span></a>
                     <ul class="dropdown__menu">
-                        <li><a href="breakfasts.html" class="dropdown__link">Завтраки</a></li>
-                        <li><a href="lunchs.html" class="dropdown__link">Обеды</a></li>
-                        <li><a href="dinner.html" class="dropdown__link">Ужины</a></li>
-                        <li><a href="deserts.html" class="dropdown__link">Десерты</a></li>
-                        <li><a href="drinks.html" class="dropdown__link">Напитки</a></li>
+                        <li><a href="../breakfasts.html" class="dropdown__link">Завтраки</a></li>
+                        <li><a href="../lunchs.html" class="dropdown__link">Обеды</a></li>
+                        <li><a href="../dinner.html" class="dropdown__link">Ужины</a></li>
+                        <li><a href="../deserts.html" class="dropdown__link">Десерты</a></li>
+                        <li><a href="../drinks.html" class="dropdown__link">Напитки</a></li>
                     </ul>
                 </li>
-                <li class="nav-list__item"><a href="about.html" class="nav-list__link">О нас</a></li>
-                <li class="nav-list__item"><a href="contacts.html" class="nav-list__link">Контакты</a></li>
+                <li class="nav-list__item"><a href="../about.html" class="nav-list__link">О нас</a></li>
+                <li class="nav-list__item"><a href="../contacts.html" class="nav-list__link">Контакты</a></li>
             </ul>
         </nav>
 
@@ -49,19 +47,19 @@
                             Каталог <span class="dropdown__arrow">⌵</span>
                         </a>
                         <ul class="mobile-dropdown__menu">
-                            <li><a href="breakfasts.html" class="mobile-dropdown__link">Завтраки</a></li>
-                            <li><a href="lunchs.html" class="mobile-dropdown__link">Обеды</a></li>
-                            <li><a href="dinner.html" class="mobile-dropdown__link">Ужины</a></li>
-                            <li><a href="deserts.html" class="mobile-dropdown__link">Десерты</a></li>
-                            <li><a href="drinks.html" class="mobile-dropdown__link">Напитки</a></li>
+                            <li><a href="../breakfasts.html" class="mobile-dropdown__link">Завтраки</a></li>
+                            <li><a href="../lunchs.html" class="mobile-dropdown__link">Обеды</a></li>
+                            <li><a href="../dinner.html" class="mobile-dropdown__link">Ужины</a></li>
+                            <li><a href="../deserts.html" class="mobile-dropdown__link">Десерты</a></li>
+                            <li><a href="..//drinks.html" class="mobile-dropdown__link">Напитки</a></li>
                         </ul>
                     </li>
                     
                     <li class="mobile-nav-list__item">
-                        <a href="about.html" class="mobile-nav-list__link">О нас</a>
+                        <a href="../about.html" class="mobile-nav-list__link">О нас</a>
                     </li>
                     <li class="mobile-nav-list__item">
-                        <a href="contacts.html" class="mobile-nav-list__link">Контакты</a>
+                        <a href="../contacts.html" class="mobile-nav-list__link">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -77,9 +75,30 @@
             </div>
         </div>
 
-        <button class="header__burger" id="burgerBtn">
-            <span></span><span></span><span></span>
-        </button>
+          <div class="header__mobile-controls">
+    <!-- Новая кнопка лупы для телефона -->
+    <button class="header__search-toggle" id="searchToggle">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </button>
+    
+    <!-- Твоя существующая кнопка бургера теперь внутри этого контейнера -->
+    <button class="header__burger" id="burgerBtn">
+        <span></span><span></span><span></span>
+    </button>
+</div>
+
+<!-- Вставляем саму панель поиска СРАЗУ после header__container, но внутри header -->
+<div class="mobile-search" id="mobileSearch">
+    <div class="container">
+        <div class="mobile-search__content">
+            <input type="text" class="search-bar__input" placeholder="Поиск рецептов...">
+            <button class="mobile-search__close" id="searchClose">✕</button>
+        </div>
+    </div>
+</div>
     </div>
 </header>
 
@@ -177,93 +196,15 @@
             </div>
         </div>
     </footer>
+    
 </body>
+<script src="../js/burgers.js"></script>
+<script src = "../js/recipe.js"></script>
+
+
+
+
+
+
 </html>
 
-<link rel="stylesheet" href="../css/recipe.css">
-
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const recipeId = urlParams.get('id');
-
-    if (!recipeId) {
-        window.location.href = '../catalog.html'; 
-        return;
-    }
-
-    fetch('../data/recipes.xml') 
-        .then(res => {
-            if (!res.ok) throw new Error('Ошибка загрузки XML');
-            return res.text();
-        })
-        .then(xmlData => {
-            const parser = new DOMParser();
-            const xml = parser.parseFromString(xmlData, "text/xml");
-            // Ищем конкретный рецепт по ID
-            const recipe = xml.querySelector(`recipe[id="${recipeId}"]`);
-
-            if (recipe) {
-                renderRecipe(recipe);
-            } else {
-                document.getElementById('recipeTitle').textContent = "Рецепт не найден";
-            }
-        })
-        .catch(err => console.error('Ошибка:', err));
-
-    function renderRecipe(recipe) {
-        // 1. Основная информация
-        document.getElementById('recipeTitle').textContent = recipe.querySelector('title').textContent;
-        document.getElementById('recipeDesc').textContent = recipe.querySelector('description').textContent;
-        document.getElementById('categoryBadge').textContent = recipe.querySelector('category').textContent;
-        
-        // Картинка (поднимаемся выше в корень и идем в папку data)
-        const imageFile = recipe.querySelector('image').textContent;
-        document.getElementById('mainImage').src = '../data/' + imageFile;
-
-        // 2. Статистика (внутри <stats>)
-        const stats = recipe.querySelector('stats');
-        document.getElementById('statTime').textContent = stats.querySelector('prepTime').textContent;
-        document.getElementById('statServings').textContent = stats.querySelector('servings').textContent;
-        document.getElementById('statCalories').textContent = stats.querySelector('calories').textContent;
-        document.getElementById('statDifficulty').textContent = stats.querySelector('difficulty').textContent;
-
-        // 3. Пищевая ценность (внутри <nutrition>)
-        const nutr = recipe.querySelector('nutrition');
-        document.getElementById('nutrProtein').textContent = nutr.querySelector('protein').textContent + 'г';
-        document.getElementById('nutrCarbs').textContent = nutr.querySelector('carbs').textContent + 'г';
-        document.getElementById('nutrFat').textContent = nutr.querySelector('fat').textContent + 'г';
-        document.getElementById('nutrFiber').textContent = nutr.querySelector('fiber').textContent + 'г';
-
-        // 4. Список ингредиентов
-        const ingredientsList = document.getElementById('ingredientsList');
-        recipe.querySelectorAll('ingredients item').forEach(item => {
-            const li = document.createElement('li');
-            li.textContent = item.textContent;
-            ingredientsList.appendChild(li);
-        });
-
-        // 5. Инструкции по приготовлению
-        const instructionsList = document.getElementById('instructionsList');
-        recipe.querySelectorAll('instructions step').forEach((step, index) => {
-            const stepDiv = document.createElement('div');
-            stepDiv.className = 'step-item';
-            stepDiv.innerHTML = `
-                <div class="step-number">${index + 1}</div>
-                <div class="step-text">${step.textContent}</div>
-            `;
-            instructionsList.appendChild(stepDiv);
-        });
-        
-        // Меняем title вкладки браузера
-        document.title = recipe.querySelector('title').textContent + " — Здоровое Питание";
-    
-    
-    
-    }
-
-
-
-    
-});
-</script>

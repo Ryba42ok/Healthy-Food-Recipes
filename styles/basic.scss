@@ -1,13 +1,4 @@
-// Переменные
-$primary-color: #4CAF50;
-$primary-dark: #388E3C;
-$primary-light: #E8F5E9;
-$text-dark: #333333;
-$text-light: #666666;
-$white: #FFFFFF;
-$shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-
-
+@import 'vars.scss';
 
 // Миксины для адаптивности
 @mixin mobile {
@@ -57,6 +48,7 @@ body {
         background: $primary-color;
         color: $white;
         border: 2px solid $primary-color;
+        margin-bottom: 5px;
         
         &:hover {
             background: $primary-dark;
@@ -118,7 +110,7 @@ body {
             gap: 10px;
             text-decoration: none;
             
-            svg {
+            img {
                 width: 40px;
                 height: 40px;
             }
@@ -181,7 +173,7 @@ body {
 .search-bar {
     position: relative;
     width: 100%;
-    max-width: 350px; // Ограничиваем ширину как на прототипе
+    max-width: 350px; // Ограничиваем ширину
 
     &__icon {
         position: absolute;
@@ -193,7 +185,7 @@ body {
 
     &__input {
         width: 100%;
-        background: #F3F4F6; // Светло-серый фон как в прототипе
+        background: #F3F4F6; // Светло-серый
         border: none;
         padding: 12px 15px 12px 45px;
         border-radius: 12px;
@@ -406,5 +398,118 @@ body {
 @include tablet {
     .hero__image {
         order: -1;
+    }
+}
+
+html, body {
+    height: 100%; // Обязательно для отсчета высоты
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; // Располагаем блоки вертикально
+    min-height: 100vh;      // Минимальная высота — весь экран
+}
+
+main {
+    flex: 1 0 auto; // Заставляет блок расти и занимать всё свободное место
+}
+
+.footer {
+    flex: 0 0 auto; // Подвал не сжимается и всегда остается внизу
+}
+
+.header__mobile-controls {
+    display: none;
+    gap: 15px;
+    align-items: center;
+
+    @include mobile {
+        display: flex; // Показываем только на мобилках
+    }
+}
+
+// Прячем стандартный поиск шапки на мобилках
+.header__search {
+    @include mobile {
+        display: none;
+        .btn {
+            display: none;
+        }
+    }
+}
+
+.header__search-toggle {
+    background: none;
+    border: none;
+    color: $text-dark;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.header__mobile-controls {
+    display: none;
+    gap: 15px;
+    align-items: center;
+
+    @include mobile {
+        display: flex; // Показываем только на мобилках
+    }
+}
+
+// Прячем стандартный поиск шапки на мобилках
+.header__search {
+    @include mobile {
+        display: none;
+    }
+}
+
+.header__search-toggle {
+    background: none;
+    border: none;
+    color: $text-dark;
+    cursor: pointer;
+    padding: 5px;
+}
+
+// Стили выезжающей панели
+.mobile-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: $white;
+    padding: 15px 0;
+    box-shadow: $shadow;
+    transform: translateY(-100%); // Спрятана выше шапки
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+
+    &--active {
+        transform: translateY(90%); // Выезжает под шапку (или на нее)
+    }
+
+    &__content {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        
+        .search-bar__input {
+            flex: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid #eee;
+            background: #f9f9f9;
+        }
+    }
+
+    &__close {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: $text-light;
+        cursor: pointer;
     }
 }

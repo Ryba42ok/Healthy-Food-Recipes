@@ -41,6 +41,7 @@
             <step>Полейте заправкой и посыпьте семенами кунжута</step>
         </instructions>
     </recipe>
+    
     <recipe id="2">
         <title>Тост с авокадо и яйцом</title>
         <category>Завтраки</category>
@@ -79,160 +80,206 @@
             <step>Посыпьте перцем, хлопьями чили и зеленью</step>
         </instructions>
     </recipe>
-    <recipe id="2">
-        <title>Тост с авокадо и яйцом</title>
+    
+<recipe id="3">
+        <title>Смузи боул с ягодами</title>
         <category>Завтраки</category>
-        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
-        <image>avacad.png</image>
+        <description>Освежающий и питательный смузи боул с замороженными ягодами и топпингами</description>
+        <image>smuzi-boul.png</image>
         
         <stats>
-            <prepTime>5 мин + 5 мин</prepTime>
+            <prepTime>10 мин + 0 мин</prepTime>
             <servings>1</servings>
-            <calories>350 ккал</calories>
+            <calories>280 ккал</calories>
             <difficulty>Легко</difficulty>
         </stats>
 
         <nutrition>
-            <protein unit="г">16</protein>
-            <carbs unit="г">32</carbs>
-            <fat unit="г">22</fat>
+            <protein unit="г">8</protein>
+            <carbs unit="г">52</carbs>
+            <fat unit="г">8</fat>
             <fiber unit="г">12</fiber>
         </nutrition>
 
         <ingredients>
-            <item>2 ломтика цельнозернового хлеба</item>
-            <item>1 спелое авокадо</item>
-            <item>2 яйца</item>
-            <item>Соль, перец, хлопья чили по вкусу</item>
-            <item>Сок лимона</item>
-            <item>Свежая зелень</item>
+            <item>1 банан замороженный</item>
+            <item>150г замороженных ягод (черника, малина)</item>
+            <item>100мл миндального молока</item>
+            <item>1 ст.л. семян чиа</item>
+            <item>Гранола для топпинга</item>
+            <item>Свежие ягоды</item>
+            <item>Кокосовая стружка</item>
+            <item>Мёд по вкусу</item>
         </ingredients>
 
         <instructions>
-            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
-            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
-            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
-            <step>Намажьте авокадо на тосты</step>
-            <step>Выложите яйца сверху</step>
-            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+            <step>Смешайте в блендере банан, ягоды и миндальное молоко</step>
+            <step>Взбивайте до однородной густой консистенции</step>
+            <step>Вылейте смузи в миску</step>
+            <step>Украсьте гранолой, свежими ягодами и кокосовой стружкой</step>
+            <step>Посыпьте семенами чиа</step>
+            <step>Подавайте сразу</step>
         </instructions>
     </recipe>
-
-<recipe id="2">
-        <title>Тост с авокадо и яйцом</title>
+    <recipe id="4">
+        <title>Греческий йогурт с гранолой</title>
         <category>Завтраки</category>
-        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
-        <image>avacad.png</image>
+        <description>Простой и полезный завтрак с греческим йогуртом, домашней гранолой и медом</description>
+        <image>greek-youg.png</image>
         
         <stats>
-            <prepTime>5 мин + 5 мин</prepTime>
+            <prepTime>5 мин + 0 мин</prepTime>
             <servings>1</servings>
-            <calories>350 ккал</calories>
+            <calories>320 ккал</calories>
             <difficulty>Легко</difficulty>
         </stats>
 
         <nutrition>
-            <protein unit="г">16</protein>
-            <carbs unit="г">32</carbs>
-            <fat unit="г">22</fat>
-            <fiber unit="г">12</fiber>
+            <protein unit="г">18</protein>
+            <carbs unit="г">38</carbs>
+            <fat unit="г">12</fat>
+            <fiber unit="г">6</fiber>
         </nutrition>
 
         <ingredients>
-            <item>2 ломтика цельнозернового хлеба</item>
-            <item>1 спелое авокадо</item>
-            <item>2 яйца</item>
-            <item>Соль, перец, хлопья чили по вкусу</item>
-            <item>Сок лимона</item>
-            <item>Свежая зелень</item>
+            <item>200г греческого йогурта</item>
+            <item>50г гранолы</item>
+            <item>1 ст.л. мёда</item>
+            <item>Горсть свежих ягод</item>
+            <item>Горсть орехов</item>
+            <item>Семена льна</item>
         </ingredients>
 
         <instructions>
-            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
-            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
-            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
-            <step>Намажьте авокадо на тосты</step>
-            <step>Выложите яйца сверху</step>
-            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+            <step>Выложите греческий йогурт в миску</step>
+            <step>Добавьте гранолу сверху</step>
+            <step>Украсьте свежими ягодами и орехами</step>
+            <step>Полейте мёдом</step>
+            <step>Посыпьте семенами льна</step>
+            <step>Подавайте сразу</step>
         </instructions>
     </recipe>
-
-    <recipe id="2">
-        <title>Тост с авокадо и яйцом</title>
+      <recipe id="5">
+        <title>Овсянка с ягодами</title>
         <category>Завтраки</category>
-        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
-        <image>avacad.png</image>
+        <description>Классическая овсяная каша с миндальным молоком, ягодами и орехами</description>
+        <image>ovs-berr.png</image>
         
         <stats>
-            <prepTime>5 мин + 5 мин</prepTime>
+            <prepTime>5 мин + 10 мин</prepTime>
             <servings>1</servings>
-            <calories>350 ккал</calories>
+            <calories>290 ккал</calories>
             <difficulty>Легко</difficulty>
         </stats>
 
         <nutrition>
-            <protein unit="г">16</protein>
-            <carbs unit="г">32</carbs>
-            <fat unit="г">22</fat>
-            <fiber unit="г">12</fiber>
+            <protein unit="г">10</protein>
+            <carbs unit="г">45</carbs>
+            <fat unit="г">10</fat>
+            <fiber unit="г">8</fiber>
         </nutrition>
 
         <ingredients>
-            <item>2 ломтика цельнозернового хлеба</item>
-            <item>1 спелое авокадо</item>
-            <item>2 яйца</item>
-            <item>Соль, перец, хлопья чили по вкусу</item>
-            <item>Сок лимона</item>
-            <item>Свежая зелень</item>
+            <item>50г овсяных хлопьев</item>
+            <item>200мл миндального молока</item>
+            <item>1 ст.л. мёда</item>
+            <item>Горсть свежих ягод</item>
+            <item>Горсть миндаля</item>
+            <item>Корица</item>
+            <item>Семена льна</item>
         </ingredients>
 
         <instructions>
-            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
-            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
-            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
-            <step>Намажьте авокадо на тосты</step>
-            <step>Выложите яйца сверху</step>
-            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
-        </instructions>
-    </recipe><recipe id="2">
-        <title>Тост с авокадо и яйцом</title>
-        <category>Завтраки</category>
-        <description>Классический здоровый завтрак с цельнозерновым хлебом, авокадо и яйцом-пашот</description>
-        <image>avacad.png</image>
-        
-        <stats>
-            <prepTime>5 мин + 5 мин</prepTime>
-            <servings>1</servings>
-            <calories>350 ккал</calories>
-            <difficulty>Легко</difficulty>
-        </stats>
-
-        <nutrition>
-            <protein unit="г">16</protein>
-            <carbs unit="г">32</carbs>
-            <fat unit="г">22</fat>
-            <fiber unit="г">12</fiber>
-        </nutrition>
-
-        <ingredients>
-            <item>2 ломтика цельнозернового хлеба</item>
-            <item>1 спелое авокадо</item>
-            <item>2 яйца</item>
-            <item>Соль, перец, хлопья чили по вкусу</item>
-            <item>Сок лимона</item>
-            <item>Свежая зелень</item>
-        </ingredients>
-
-        <instructions>
-            <step>Поджарьте хлеб в тостере до золотистого цвета</step>
-            <step>Разомните авокадо вилкой с солью и лимонным соком</step>
-            <step>Сварите яйца-пашот в кипящей воде 3-4 минуты</step>
-            <step>Намажьте авокадо на тосты</step>
-            <step>Выложите яйца сверху</step>
-            <step>Посыпьте перцем, хлопьями чили и зеленью</step>
+            <step>Залейте овсянку миндальным молоком</step>
+            <step>Варите на среднем огне 5-7 минут</step>
+            <step>Добавьте щепотку корицы</step>
+            <step>Переложите в миску</step>
+            <step>Украсьте ягодами, миндалем и семенами льна</step>
+            <step>Полейте мёдом</step>
         </instructions>
     </recipe>
-    <recipe id="3">
+     <recipe id="6">
+        <title>Протеиновые панкейки</title>
+        <category>Завтраки</category>
+        <description>Пышные панкейки с бананом и протеином, идеальны для спортсменов</description>
+        <image>prot-pancakkes.png</image>
+        
+        <stats>
+            <prepTime>10 мин + 15 мин</prepTime>
+            <servings>2</servings>
+            <calories>340 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">22</protein>
+            <carbs unit="г">42</carbs>
+            <fat unit="г">8</fat>
+            <fiber unit="г">6</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>2 банана</item>
+            <item>2 яйца</item>
+            <item>30г протеинового порошка</item>
+            <item>50г овсяной муки</item>
+            <item>1 ч.л. разрыхлителя</item>
+            <item>Щепотка корицы</item>
+            <item>Кокосовое масло для жарки</item>
+            <item>Ягоды и мёд для подачи</item>
+        </ingredients>
+
+        <instructions>
+            <step>Разомните бананы вилкой в пюре</step>
+            <step>Добавьте яйца и взбейте</step>
+            <step>Смешайте сухие ингредиенты</step>
+            <step>Соедините влажные и сухие компоненты</step>
+            <step>Жарьте панкейки на сковороде по 2-3 минуты с каждой стороны</step>
+            <step>Подавайте с ягодами и мёдом</step>
+        </instructions>
+    </recipe>
+     <recipe id="7">
+        <title>Яичные маффины</title>
+        <category>Завтраки</category>
+        <description>Порционные яичные маффины с овощами и сыром для быстрого завтрака</description>
+        <image>egg-maffs.png</image>
+        
+        <stats>
+            <prepTime>15 мин + 20 мин</prepTime>
+            <servings>6</servings>
+            <calories>160 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">11</protein>
+            <carbs unit="г">6</carbs>
+            <fat unit="г">10</fat>
+            <fiber unit="г">2</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>6 яиц</item>
+            <item>100г брокколи</item>
+            <item>100г болгарского перца</item>
+            <item>50г шпината</item>
+            <item>50г сыра фета</item>
+            <item>50мл молока</item>
+            <item>Соль, перец, паприка</item>
+            <item>Оливковое масло</item>
+        </ingredients>
+
+        <instructions>
+            <step>Разогрейте духовку до 180°С</step>
+            <step>Мелко нарежьте все овощи</step>
+            <step>Взбейте яйца с молоком и специями</step>
+            <step>Добавьте овощи и сыр</step>
+            <step>Разлейте по формочкам для маффинов</step>
+            <step>Выпекайте 18-20 минут</step>
+        </instructions>
+    </recipe>
+    
+    <recipe id="8">
         <title>Запеченный лосось с овощами</title>
         <category>Обеды</category>
         <description>Сочный лосось с овощами, запеченный в духовке с травами и лимоном</description>
@@ -272,7 +319,7 @@
             <step>Подавайте горячим с дольками лимона</step>
         </instructions>
     </recipe>
-     <recipe id="4">
+     <recipe id="9">
         <title>Овощи в воке</title>
         <category>Ужины</category>
         <description>Хрустящие овощи, обжаренные в воке с соевым соусом и имбирем</description>
@@ -314,4 +361,705 @@
             <step>Посыпьте кунжутом и подавайте</step>
         </instructions>
     </recipe>
+    <recipe id="11">
+        <title>Салат с курицей гриль</title>
+        <category>Обеды</category>
+        <description>Сытный салат с куриной грудкой гриль, свежими овощами и йогуртовой заправкой</description>
+        <image>salat-cur-gril.png</image>
+        
+        <stats>
+            <prepTime>15 мин + 15 мин</prepTime>
+            <servings>2</servings>
+            <calories>380 ккал</calories>
+            <difficulty>Легко</difficulty>
+        </stats>
+
+        <nutrition>
+            <protein unit="г">38</protein>
+            <carbs unit="г">18</carbs>
+            <fat unit="г">16</fat>
+            <fiber unit="г">8</fiber>
+        </nutrition>
+
+        <ingredients>
+            <item>300г куриной грудки</item>
+            <item>Микс салатных листьев</item>
+            <item>200г помидоров черри</item>
+            <item>1 огурец</item>
+            <item>1 авокадо</item>
+            <item>100г греческого йогурта</item>
+            <item>1 ст.л. лимонного сока</item>
+            <item>Оливковое масло</item>
+            <item>Соль, перец, паприка</item>
+        </ingredients>
+
+        <instructions>
+            <step>Натрите курицу специями и обжарьте на гриле 12-15 минут</step>
+            <step>Нарежьте помидоры, огурец и авокадо</step>
+            <step>Приготовьте заправку из йогурта и лимонного сока</step>
+            <step>Выложите салатные листья в миску</step>
+            <step>Добавьте овощи и нарезанную курицу</step>
+            <step>Полейте заправкой и подавайте</step>
+        </instructions>
+    </recipe>
+
+    <recipe id="12">
+    <title>Суп харчо</title>
+    <category>Обеды</category>
+    <description>Грузинский суп с говядиной, рисом и грецкими орехами</description>
+    <image>harch.png</image>
+    
+    <stats>
+        <prepTime>20 мин + 1 час 20 мин</prepTime>
+        <servings>6</servings>
+        <calories>320 ккал</calories>
+        <difficulty>Средне</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">28</protein>
+        <carbs unit="г">24</carbs>
+        <fat unit="г">16</fat>
+        <fiber unit="г">3</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>500г говядины</item>
+        <item>100г риса</item>
+        <item>3 луковицы</item>
+        <item>3 зубчика чеснока</item>
+        <item>100г грецких орехов</item>
+        <item>2 ст.л. томатной пасты</item>
+        <item>Хмели-сунели, кориандр</item>
+        <item>Ткемали или томатный соус</item>
+        <item>Кинза</item>
+        <item>Соль, перец</item>
+    </ingredients>
+
+    <instructions>
+        <step>Отварите говядину до готовности (1 час)</step>
+        <step>Нарежьте мясо кубиками, верните в бульон</step>
+        <step>Обжарьте лук с томатной пастой</step>
+        <step>Добавьте зажарку в бульон</step>
+        <step>Добавьте рис, варите 15 минут</step>
+        <step>Измельчите орехи с чесноком и специями</step>
+        <step>Добавьте ореховую массу в суп</step>
+        <step>Варите еще 5 минут, добавьте кинзу</step>
+    </instructions>
+</recipe>
+<recipe id="13">
+    <title>Том ям с креветками</title>
+    <category>Обеды</category>
+    <description>Острый тайский суп с креветками, грибами и лемонграссом</description>
+    <image>tom-yan.png</image>
+    
+    <stats>
+        <prepTime>15 мин + 20 мин</prepTime>
+        <servings>2</servings>
+        <calories>260 ккал</calories>
+        <difficulty>Средне</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">28</protein>
+        <carbs unit="г">18</carbs>
+        <fat unit="г">8</fat>
+        <fiber unit="г">4</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>300г креветок</item>
+        <item>200г грибов шиитаке</item>
+        <item>2 стебля лемонграсса</item>
+        <item>3-4 листа каффир-лайма</item>
+        <item>2 см корня галангала</item>
+        <item>2 ст.л. пасты том ям</item>
+        <item>1л куриного бульона</item>
+        <item>Помидоры черри</item>
+        <item>Сок 2 лаймов</item>
+        <item>Кинза</item>
+    </ingredients>
+
+    <instructions>
+        <step>Раздавите лемонграсс и галангал</step>
+        <step>Вскипятите бульон с лемонграссом, галангалом и листьями лайма</step>
+        <step>Добавьте пасту том ям</step>
+        <step>Добавьте грибы и помидоры, варите 5 минут</step>
+        <step>Добавьте креветки, варите 3-4 минуты</step>
+        <step>Снимите с огня, добавьте сок лайма</step>
+        <step>Подавайте с кинзой</step>
+    </instructions>
+</recipe>
+
+<recipe id="14">
+    <title>Буддийский боул</title>
+    <category>Обеды</category>
+    <description>Красочный боул с разнообразными овощами, нутом и тахини соусом</description>
+    <image>bud-boul.png</image>
+    
+    <stats>
+        <prepTime>20 мин + 15 мин</prepTime>
+        <servings>2</servings>
+        <calories>450 ккал</calories>
+        <difficulty>Средне</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">15</protein>
+        <carbs unit="г">52</carbs>
+        <fat unit="г">20</fat>
+        <fiber unit="г">14</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>200г нута (консервированного)</item>
+        <item>1 батат</item>
+        <item>150г брокколи</item>
+        <item>1 авокадо</item>
+        <item>100г красной капусты</item>
+        <item>2 ст.л. тахини</item>
+        <item>Сок 1 лимона</item>
+        <item>Семена подсолнечника</item>
+        <item>Соль, перец, куркума</item>
+    </ingredients>
+
+    <instructions>
+        <step>Запеките батат кубиками в духовке при 200°С 20 минут</step>
+        <step>Обжарьте нут с куркумой до хрустящей корочки</step>
+        <step>Отварите брокколи на пару 5 минут</step>
+        <step>Приготовьте соус из тахини, лимонного сока и воды</step>
+        <step>Нарежьте авокадо и капусту</step>
+        <step>Выложите все ингредиенты в миску и полейте соусом</step>
+    </instructions>
+</recipe>
+
+<recipe id="15">
+    <title>Тыквенный крем-суп</title>
+    <category>Обеды</category>
+    <description>Нежный крем-суп из тыквы с имбирем и кокосовым молоком</description>
+    <image>tikv-semechki.png</image>
+    
+    <stats>
+        <prepTime>15 мин + 35 мин</prepTime>
+        <servings>4</servings>
+        <calories>220 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">6</protein>
+        <carbs unit="г">28</carbs>
+        <fat unit="г">12</fat>
+        <fiber unit="г">5</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>600г тыквы</item>
+        <item>1 луковица</item>
+        <item>2 зубчика чеснока</item>
+        <item>2 см корня имбиря</item>
+        <item>400мл кокосового молока</item>
+        <item>500мл овощного бульона</item>
+        <item>Оливковое масло</item>
+        <item>Соль, перец</item>
+        <item>Тыквенные семечки для украшения</item>
+    </ingredients>
+
+    <instructions>
+        <step>Нарежьте тыкву кубиками</step>
+        <step>Обжарьте лук, чеснок и имбирь на масле</step>
+        <step>Добавьте тыкву, жарьте 5 минут</step>
+        <step>Влейте бульон и кокосовое молоко</step>
+        <step>Варите 25-30 минут до мягкости тыквы</step>
+        <step>Измельчите блендером до кремовой текстуры</step>
+        <step>Подавайте с тыквенными семечками</step>
+    </instructions>
+</recipe>
+<recipe id="16">
+    <title>Рамен с курицей</title>
+    <category>Обеды</category>
+    <description>Насыщенный японский суп с лапшой, курицей, яйцом и мисо-пастой</description>
+    <image>ramen.png</image>
+    
+    <stats>
+        <prepTime>20 мин + 20 мин</prepTime>
+        <servings>2</servings>
+        <calories>520 ккал</calories>
+        <difficulty>Средне</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">38</protein>
+        <carbs unit="г">52</carbs>
+        <fat unit="г">12</fat>
+        <fiber unit="г">4</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>200г лапши рамен</item>
+        <item>300г куриной грудки</item>
+        <item>2 яйца</item>
+        <item>1л куриного бульона</item>
+        <item>2 ст.л. соевого соуса</item>
+        <item>1 ст.л. мисо-пасты</item>
+        <item>Зеленый лук</item>
+        <item>Водоросли нори</item>
+        <item>Кукуруза</item>
+        <item>Грибы шиитаке</item>
+    </ingredients>
+
+    <instructions>
+        <step>Отварите яйца всмятку (6-7 минут)</step>
+        <step>Обжарьте курицу и нарежьте ломтиками</step>
+        <step>Вскипятите бульон, добавьте соевый соус и мисо</step>
+        <step>Отварите лапшу отдельно</step>
+        <step>Обжарьте грибы</step>
+        <step>Разложите лапшу по мискам</step>
+        <step>Залейте горячим бульоном</step>
+        <step>Добавьте курицу, яйцо, грибы, кукурузу, лук и нори</step>
+    </instructions>
+</recipe>
+<recipe id="17">
+    <title>Фо бо (вьетнамский суп)</title>
+    <category>Обеды</category>
+    <description>Ароматный вьетнамский суп с рисовой лапшой и говядиной</description>
+    <image>fobo.png</image>
+    
+    <stats>
+        <prepTime>30 мин + 2 часа</prepTime>
+        <servings>4</servings>
+        <calories>380 ккал</calories>
+        <difficulty>Сложно</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">32</protein>
+        <carbs unit="г">48</carbs>
+        <fat unit="г">8</fat>
+        <fiber unit="г">2</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>300г говядины для бульона</item>
+        <item>200г говядины для подачи</item>
+        <item>200г рисовой лапши</item>
+        <item>Анис, корица, кориандр</item>
+        <item>5 см корня имбиря</item>
+        <item>2 луковицы</item>
+        <item>Рыбный соус</item>
+        <item>Ростки сои, базилик, лайм</item>
+        <item>Зеленый лук, кинза</item>
+    </ingredients>
+
+    <instructions>
+        <step>Обжарьте специи, имбирь и лук</step>
+        <step>Сварите бульон из говядины со специями (2 часа)</step>
+        <step>Процедите бульон</step>
+        <step>Отварите лапшу</step>
+        <step>Нарежьте сырую говядину тонкими ломтиками</step>
+        <step>Разложите лапшу по мискам</step>
+        <step>Добавьте сырую говядину</step>
+        <step>Залейте кипящим бульоном</step>
+        <step>Подавайте с ростками, базиликом, лаймом</step>
+    </instructions>
+</recipe>
+<recipe id="18">
+    <title>Курица гриль с овощами</title>
+    <category>Ужины</category>
+    <description>Ароматная куриная грудка на гриле с запеченными овощами</description>
+    <image>kur-gr.png</image>
+    
+    <stats>
+        <prepTime>15 мин + 20 мин</prepTime>
+        <servings>2</servings>
+        <calories>410 ккал</calories>
+        <difficulty>Средне</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">36</protein>
+        <carbs unit="г">22</carbs>
+        <fat unit="г">18</fat>
+        <fiber unit="г">8</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>300г куриной грудки</item>
+        <item>2 цукини</item>
+        <item>1 баклажан</item>
+        <item>2 болгарских перца</item>
+        <item>3 ст.л. оливкового масла</item>
+        <item>Чеснок, розмарин</item>
+        <item>Бальзамический уксус</item>
+        <item>Соль, перец</item>
+    </ingredients>
+
+    <instructions>
+        <step>Замаринуйте курицу в оливковом масле с чесноком и розмарином</step>
+        <step>Нарежьте овощи крупными кусками</step>
+        <step>Обжарьте курицу на гриле по 8-10 минут с каждой стороны</step>
+        <step>Запеките овощи в духовке при 200°C 15 минут</step>
+        <step>Полейте овощи бальзамическим уксусом</step>
+        <step>Подавайте курицу с овощами</step>
+    </instructions>
+</recipe>
+<recipe id="19">
+    <title>Запеченный батат</title>
+    <category>Ужины</category>
+    <description>Сладкий батат, запеченный в духовке с начинкой из черной фасоли</description>
+    <image>batat.png</image>
+    
+    <stats>
+        <prepTime>10 мин + 40 мин</prepTime>
+        <servings>2</servings>
+        <calories>320 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">12</protein>
+        <carbs unit="г">56</carbs>
+        <fat unit="г">8</fat>
+        <fiber unit="г">14</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>2 крупных батата</item>
+        <item>200г черной фасоли (консервированной)</item>
+        <item>100г кукурузы</item>
+        <item>1 авокадо</item>
+        <item>2 ст.л. греческого йогурта</item>
+        <item>Кинза</item>
+        <item>Лайм</item>
+        <item>Паприка, тмин</item>
+    </ingredients>
+
+    <instructions>
+        <step>Разогрейте духовку до 200°С</step>
+        <step>Проколите батат вилкой и запекайте 40 минут</step>
+        <step>Разогрейте фасоль с кукурузой и специями</step>
+        <step>Разрежьте батат вдоль и разомните мякоть вилкой</step>
+        <step>Выложите начинку из фасоли</step>
+        <step>Добавьте авокадо, йогурт и кинзу</step>
+    </instructions>
+</recipe>
+<recipe id="20">
+    <title>Овощной суп</title>
+    <category>Ужины</category>
+    <description>Согревающий овощной суп с чечевицей и свежей зеленью</description>
+    <image>ovosh-sup.png</image>
+    
+    <stats>
+        <prepTime>15 мин + 30 мин</prepTime>
+        <servings>4</servings>
+        <calories>180 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">10</protein>
+        <carbs unit="г">28</carbs>
+        <fat unit="г">4</fat>
+        <fiber unit="г">8</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>150г красной чечевицы</item>
+        <item>2 моркови</item>
+        <item>2 стебля сельдерея</item>
+        <item>1 луковица</item>
+        <item>2 зубчика чеснока</item>
+        <item>400г томатов в собственном соку</item>
+        <item>1л овощного бульона</item>
+        <item>Оливковое масло</item>
+        <item>Тимьян, базилик</item>
+    </ingredients>
+
+    <instructions>
+        <step>Нарежьте лук, морковь и сельдерей</step>
+        <step>Обжарьте лук и чеснок на оливковом масле</step>
+        <step>Добавьте морковь и сельдерей, жарьте 5 минут</step>
+        <step>Влейте бульон и томаты</step>
+        <step>Добавьте чечевицу и травы</step>
+        <step>Варите 25-30 минут до готовности чечевицы</step>
+    </instructions>
+</recipe>
+<recipe id="21">
+    <title>Дорадо на гриле</title>
+    <category>Ужины</category>
+    <description>Нежная рыба дорадо на гриле с лимоном и средиземноморскими травами</description>
+    <image>dorado.png</image>
+    
+    <stats>
+        <prepTime>10 мин + 15 мин</prepTime>
+        <servings>2</servings>
+        <calories>390 ккал</calories>
+        <difficulty>Средне</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">42</protein>
+        <carbs unit="г">4</carbs>
+        <fat unit="г">22</fat>
+        <fiber unit="г">2</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>2 дорадо (по 300г)</item>
+        <item>2 лимона</item>
+        <item>Розмарин, тимьян</item>
+        <item>3 ст.л. оливкового масла</item>
+        <item>2 зубчика чеснока</item>
+        <item>Соль, перец</item>
+        <item>Свежий шпинат для гарнира</item>
+    </ingredients>
+
+    <instructions>
+        <step>Очистите рыбу, сделайте надрезы по бокам</step>
+        <step>Нафаршируйте рыбу дольками лимона и травами</step>
+        <step>Натрите солью, перцем и маслом</step>
+        <step>Обжарьте на гриле по 6-7 минут с каждой стороны</step>
+        <step>Подавайте на подушке из свежего шпината</step>
+        <step>Украсьте дольками лимона</step>
+    </instructions>
+</recipe>
+<recipe id="22">
+    <title>Цукини-паста</title>
+    <category>Ужины</category>
+    <description>Легкая альтернатива пасте - лапша из цукини с томатным соусом</description>
+    <image>cukini.png</image>
+    
+    <stats>
+        <prepTime>15 мин + 10 мин</prepTime>
+        <servings>2</servings>
+        <calories>180 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">6</protein>
+        <carbs unit="г">18</carbs>
+        <fat unit="г">10</fat>
+        <fiber unit="г">6</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>3 цукини</item>
+        <item>400 г томатов в собственном соку</item>
+        <item>2 зубчика чеснока</item>
+        <item>1 луковица</item>
+        <item>Свежий базилик</item>
+        <item>Оливковое масло</item>
+        <item>Соль, перец</item>
+        <item>Пармезан (по желанию)</item>
+    </ingredients>
+
+    <instructions>
+        <step>Сделайте лапшу из цукини спирализатором</step>
+        <step>Обжарьте лук и чеснок на масле</step>
+        <step>Добавьте томаты, тушите 10 минут</step>
+        <step>Приправьте солью, перцем, добавьте базилик</step>
+        <step>Слегка обжарьте цукини-лапшу 2-3 минуты</step>
+        <step>Полейте соусом и посыпьте пармезаном</step>
+    </instructions>
+</recipe>
+<recipe id="23">
+    <title>Чиа пудинг с фруктами</title>
+    <category>Десерты</category>
+    <description>Нежный чиа пудинг с кокосовым молоком и свежими тропическими фруктами</description>
+    <image>chia.png</image>
+    
+    <stats>
+        <prepTime>5 мин + 0 мин (+ 4 часа в холодильнике)</prepTime>
+        <servings>2</servings>
+        <calories>240 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">6</protein>
+        <carbs unit="г">32</carbs>
+        <fat unit="г">14</fat>
+        <fiber unit="г">12</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>4 ст.л. семян чиа</item>
+        <item>300мл кокосового молока</item>
+        <item>1 ст.л. кленового сиропа</item>
+        <item>Экстракт ванили</item>
+        <item>Свежие фрукты (манго, киви, ягоды)</item>
+        <item>Кокосовая стружка</item>
+    </ingredients>
+
+    <instructions>
+        <step>Смешайте семена чиа с кокосовым молоком</step>
+        <step>Добавьте кленовый сироп и ваниль</step>
+        <step>Хорошо перемешайте и оставьте на 10 минут</step>
+        <step>Перемешайте еще раз и поставьте в холодильник на 4 часа</step>
+        <step>Нарежьте свежие фрукты</step>
+        <step>Разложите пудинг по стаканам и украсьте фруктами</step>
+    </instructions>
+</recipe>
+
+<recipe id="24">
+    <title>Фруктовый салат</title>
+    <category>Десерты</category>
+    <description>Яркий салат из сезонных фруктов с мятой и лимонным соком</description>
+    <image>fruckt.png</image>
+    
+    <stats>
+        <prepTime>15 мин + 0 мин</prepTime>
+        <servings>4</servings>
+        <calories>140 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">2</protein>
+        <carbs unit="г">34</carbs>
+        <fat unit="г">1</fat>
+        <fiber unit="г">6</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>1 манго</item>
+        <item>200г клубники</item>
+        <item>2 киви</item>
+        <item>150г черники</item>
+        <item>1 апельсин</item>
+        <item>Горсть мяты</item>
+        <item>Сок 1 лимона</item>
+        <item>1 ст.л. мёда</item>
+    </ingredients>
+
+    <instructions>
+        <step>Нарежьте все фрукты кубиками</step>
+        <step>Выжмите сок из апельсина</step>
+        <step>Измельчите мяту</step>
+        <step>Смешайте фрукты в большой миске</step>
+        <step>Полейте апельсиновым и лимонным соком</step>
+        <step>Добавьте мяту и мёд, перемешайте</step>
+    </instructions>
+</recipe>
+
+<recipe id="25">
+    <title>Энергетические шарики</title>
+    <category>Десерты</category>
+    <description>Полезные энергетические шарики из фиников, миндаля и какао</description>
+    <image>energ.png</image>
+    
+    <stats>
+        <prepTime>10 мин + 0 мин</prepTime>
+        <servings>6</servings>
+        <calories>180 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">3</protein>
+        <carbs unit="г">14</carbs>
+        <fat unit="г">5</fat>
+        <fiber unit="г">3</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>200г фиников без косточек</item>
+        <item>100г миндаля</item>
+        <item>2 ст.л. какао-порошка</item>
+        <item>1 ст.л. кокосового масла</item>
+        <item>1 ч.л. ванильного экстракта</item>
+        <item>Кокосовая стружка для обваливания</item>
+        <item>Щепотка соли</item>
+    </ingredients>
+
+    <instructions>
+        <step>Замочите финики в горячей воде на 10 минут</step>
+        <step>Измельчите миндаль в блендере</step>
+        <step>Добавьте финики, какао, масло и ваниль</step>
+        <step>Взбивайте до однородной массы</step>
+        <step>Сформируйте шарики влажными руками</step>
+        <step>Обваляйте в кокосовой стружке, охладите 1 час</step>
+    </instructions>
+</recipe>
+
+<recipe id="27">
+    <title>Зеленый смузи</title>
+    <category>Напитки</category>
+    <description>Освежающий детокс смузи со шпинатом, фруктами и имбирем</description>
+    <image>zel.png</image>
+    
+    <stats>
+        <prepTime>5 мин + 0 мин</prepTime>
+        <servings>1</servings>
+        <calories>180 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">3</protein>
+        <carbs unit="г">42</carbs>
+        <fat unit="г">1</fat>
+        <fiber unit="г">8</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>1 банан</item>
+        <item>1 стакан шпината</item>
+        <item>1 зеленое яблоко</item>
+        <item>1 киви</item>
+        <item>200мл кокосовой воды</item>
+        <item>1 см корня имбиря</item>
+        <item>Сок половины лимона</item>
+        <item>Лед</item>
+    </ingredients>
+
+    <instructions>
+        <step>Очистите и нарежьте все фрукты</step>
+        <step>Измельчите имбирь</step>
+        <step>Сложите все ингредиенты в блендер</step>
+        <step>Добавьте кокосовую воду и лед</step>
+        <step>Взбивайте до однородной консистенции</step>
+        <step>Подавайте сразу</step>
+    </instructions>
+</recipe>
+<recipe id="28">
+    <title>Детокс-сок</title>
+    <category>Напитки</category>
+    <description>Очищающий зеленый сок с сельдереем, яблоком и имбирем</description>
+    <image>detox-0.jpg</image>
+    
+    <stats>
+        <prepTime>10 мин + 0 мин</prepTime>
+        <servings>2</servings>
+        <calories>120 ккал</calories>
+        <difficulty>Легко</difficulty>
+    </stats>
+
+    <nutrition>
+        <protein unit="г">2</protein>
+        <carbs unit="г">28</carbs>
+        <fat unit="г">0</fat>
+        <fiber unit="г">1</fiber>
+    </nutrition>
+
+    <ingredients>
+        <item>4 стебля сельдерея</item>
+        <item>2 зеленых яблока</item>
+        <item>1 огурец</item>
+        <item>1/2 лимона</item>
+        <item>2 см корня имбиря</item>
+        <item>Горсть шпината</item>
+        <item>Горсть петрушки</item>
+    </ingredients>
+
+    <instructions>
+        <step>Вымойте все ингредиенты</step>
+        <step>Нарежьте крупными кусками</step>
+        <step>Пропустите через соковыжималку</step>
+        <step>Начните с зелени, затем добавьте овощи</step>
+        <step>В конце добавьте яблоки</step>
+        <step>Подавайте сразу со льдом</step>
+    </instructions>
+</recipe>
 </recipes>

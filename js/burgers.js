@@ -67,3 +67,51 @@
             });
         }
     });
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const searchToggle = document.getElementById('searchToggle');
+    const searchClose = document.getElementById('searchClose');
+    const mobileSearch = document.getElementById('mobileSearch');
+    const burgerBtn = document.getElementById('burgerBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    // Открыть поиск
+    searchToggle.addEventListener('click', () => {
+        mobileSearch.classList.add('mobile-search--active');
+        // Закрываем меню, если оно открыто
+        mobileMenu.classList.remove('mobile-menu--active');
+        burgerBtn.classList.remove('header__burger--active');
+    });
+
+    // Закрыть поиск
+    searchClose.addEventListener('click', () => {
+        mobileSearch.classList.remove('mobile-search--active');
+    });
+
+    // Закрывать поиск при клике вне его области (опционально)
+    window.addEventListener('click', (e) => {
+        if (e.target === mobileSearch) {
+            mobileSearch.classList.remove('mobile-search--active');
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const searchToggle = document.getElementById('searchToggle');
+    const searchClose = document.getElementById('searchClose');
+    const mobileSearch = document.getElementById('mobileSearch');
+
+    if (searchToggle) {
+        searchToggle.addEventListener('click', () => {
+            mobileSearch.classList.add('mobile-search--active');
+            // Если открыто меню бургера — закрываем его при поиске
+            document.getElementById('mobileMenu').classList.remove('mobile-menu--active');
+        });
+    }
+
+    if (searchClose) {
+        searchClose.addEventListener('click', () => {
+            mobileSearch.classList.remove('mobile-search--active');
+        });
+    }
+});
