@@ -72,12 +72,5 @@
         
         // Меняем title вкладки браузера
         document.title = recipe.querySelector('title').textContent + " — Здоровое Питание";
-    
-    
-    
     }
-
-
-
-    
 });

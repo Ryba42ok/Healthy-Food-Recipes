@@ -1,6 +1,6 @@
 @import 'vars.scss';
 
-// Миксины для адаптивности
+
 @mixin mobile {
     @media (max-width: 768px) {
         @content;
@@ -268,7 +268,7 @@ body {
 .dropdown {
     position: relative;
     
-    // Десктопное поведение (мышь)
+   
     @media (min-width: 1025px) {
         &:hover .dropdown__menu {
             display: block;

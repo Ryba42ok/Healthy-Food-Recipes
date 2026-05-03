@@ -1,5 +1,5 @@
 @import 'vars.scss';
-// Миксины для адаптивности
+
 @mixin mobile {
     @media (max-width: 768px) {
         @content;
@@ -14,7 +14,7 @@
 
 // Hero секция
 .hero {
-    // Увеличиваем отступы сверху и снизу (было ~40-60px, стало 120px)
+    
     background: $green-to-white-gradient;
     padding: 120px 0; 
     text-align: center;
@@ -22,12 +22,12 @@
     overflow: hidden;
 
     &__content {
-        max-width: 900px; // Немного расширим контейнер для текста
+        max-width: 900px;
         margin: 0 auto;
     }
 
     &__title {
-        font-size: 56px; // Увеличенный размер заголовка
+        font-size: 56px;
         font-weight: bold;
         color: $text-dark;
         margin-bottom: 24px;
@@ -39,10 +39,10 @@
     }
 
     &__description {
-        font-size: 20px; // Чуть крупнее шрифт описания
+        font-size: 20px; 
         color: $text-light;
         max-width: 650px;
-        margin: 0 auto 60px; // Большой отступ снизу до статистики
+        margin: 0 auto 60px;
         line-height: 1.6;
 
         @include mobile {
@@ -55,7 +55,7 @@
     .stats {
         display: flex;
         justify-content: center;
-        gap: 60px; // Увеличенное расстояние между колонками
+        gap: 60px; 
         margin-bottom: 60px;
 
         @include mobile {
@@ -68,12 +68,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: $white;           // Белый фон карточки
-    padding: 40px 30px;           // Внутренние отступы
-    border-radius: 24px;          // Сильное скругление углов
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); // Мягкая тень
+    background: $white;           
+    padding: 40px 30px;          
+    border-radius: 24px;         
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); 
     transition: transform 0.3s ease;
-    flex: 1;                      // Чтобы карточки были одинаковой ширины
+    flex: 1;                      
     min-width: 250px;
 
     // Круг для иконки
@@ -244,7 +244,7 @@
 }
 
 .recipe-card {
-    text-align: left; // Для рецептов лучше левое выравнивание
+    text-align: left; 
     display: flex;
     flex-direction: column;
 
@@ -281,7 +281,7 @@
         font-size: 15px;
         margin-bottom: 20px;
         line-height: 1.4;
-        flex-grow: 1; // Чтобы кнопки всегда были на одном уровне
+        flex-grow: 1; 
     }
 
     .btn {

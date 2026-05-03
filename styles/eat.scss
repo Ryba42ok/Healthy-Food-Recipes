@@ -67,12 +67,12 @@ body {
     margin-bottom: 50px;
 
     .search-bar {
-        max-width: 100%; // Во всю ширину на этой странице
+        max-width: 100%; 
 
         &__input {
-            border: 1px solid #E5E7EB; // Легкая обводка
+            border: 1px solid #E5E7EB; 
             border-radius: 12px;
-            padding-left: 50px; // Больше отступ для иконки
+            padding-left: 50px; 
 
             &:focus {
                 border-color: $primary-color;
@@ -88,27 +88,28 @@ body {
 // Сетка рецептов
 .recipes-grid {
     display: grid;
-    // Используем minmax, чтобы карточки не сжимались в "ноль"
+   
     grid-template-columns: repeat(3, minmax(0, 1fr)); 
     gap: 30px;
-    width: 100%; // Гарантируем ширину
+    width: 100%; 
 
     @include tablet {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     @include mobile {
-        grid-template-columns: 1fr; // Одна колонка
+        grid-template-columns: 1fr; 
         gap: 20px;
     }
-}// Карточка рецепта
+}
+// Карточка рецепта
 .recipe-card {
     background: $white;
     border-radius: 16px;
-    overflow: hidden; // Чтобы картинка не вылезала
+    overflow: hidden; 
     box-shadow: $shadow;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none; // Если карточка целиком ссылка
+    text-decoration: none; 
     display: flex;
     flex-direction: column;
 
@@ -119,7 +120,7 @@ body {
 
     &__image-wrapper {
         position: relative;
-        padding-top: 65%; // Соотношение сторон картинки
+        padding-top: 65%; 
         overflow: hidden;
     }
 
@@ -129,12 +130,12 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; // Заполняет пространство без искажений
+        object-fit: cover; 
         transition: transform 0.5s ease;
     }
 
     &:hover &__image {
-        transform: scale(1.05); // Легкий зум при наведении
+        transform: scale(1.05); 
     }
 
     &__badge {
@@ -191,7 +192,6 @@ body {
     color: $primary-color;
 }
 
-// Элементы КБЖУ/Время
 .info-item {
     display: flex;
     align-items: center;
@@ -209,26 +209,22 @@ body {
 .error-msg {
      @include mobile()
     {
-    // 1. Управляем переносом слов
+  
     overflow-wrap: break-word; 
     word-wrap: break-word;     
     word-break: break-all;     
     
 
-   
-    // 2. Ограничиваем ширину
     display: block;            
     max-width: 100vw;          
     box-sizing: border-box;    
     padding: 0 15px;          
-    
-    // 3. Отключаем горизонтальный скролл на уровне текста
+ 
     overflow-x: hidden;
     }
 }
 
 
-// Если заголовок слишком огромный на мобилках, уменьшим шрифт
 @include mobile {
     #searchTitle {
         font-size: 24px;       

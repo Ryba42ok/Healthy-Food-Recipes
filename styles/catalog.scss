@@ -42,7 +42,7 @@
     
 // Сетка статистики
 .catalog-stats {
-    margin-top: -50px; // Наплыв на градиент хедера
+    margin-top: -50px;
     position: relative;
     z-index: 10;
     margin-bottom: 50px;
@@ -66,7 +66,7 @@
     border-radius: 15px;
     text-align: center;
     box-shadow: $shadow;
-    flex: 1;                // Чтобы карточки были одинаковой ширины
+    flex: 1;             
     max-width: 250px; 
 
    &__number {
@@ -78,7 +78,7 @@
    }
 
     @include mobile {
-        flex: 1 1 40%;      // На мобилках по 2 в ряд
+        flex: 1 1 40%;      
     }
 }
 
@@ -89,16 +89,16 @@
     padding: 40px;
     text-align: center;
     color: $white;
-    margin: 40px 0; // отступ от сетки рецептов
+    margin: 40px 0; 
 
     &__btns {
-        display: flex;            // Кнопки в ряд
+        display: flex;            
         justify-content: center;
         gap: 20px;
         margin-top: 30px;
 
         @include mobile {
-            flex-direction: column; // На мобилках кнопка под кнопкой
+            flex-direction: column;
             align-items: center;
         }
     }
@@ -296,7 +296,7 @@
     display: flex;
     flex-wrap: wrap;      
     gap: 30px;
-    justify-content: center;   // Центрируем элементы в каждой строке
+    justify-content: center;   
     
     .category-card {
         flex: 0 1 calc(30% - 20px); // 3 в ряд на десктопе

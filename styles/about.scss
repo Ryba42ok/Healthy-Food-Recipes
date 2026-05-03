@@ -18,13 +18,13 @@
 
     padding: 60px 0 40px;
     text-align: center;
-    background: $green-to-white-gradient; // Светлый фон, плавно переходящий в контент
+    background: $green-to-white-gradient; 
 
     &__badge {
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        color: #27AE60; // Темно-зеленый текст
+        color: #27AE60; 
         padding: 6px 16px;
         border-radius: 50px;
         font-size: 14px;
@@ -36,12 +36,12 @@
     &__title {
         font-size: 48px;
         font-weight: 800;
-        color: #1A1D1F; // Почти черный
+        color: #1A1D1F; 
         line-height: 1.2;
         margin-bottom: 20px;
 
         span {
-            color: #27AE60; // Выделение зеленым цветом
+            color: #27AE60;
         }
     }
 
@@ -50,7 +50,7 @@
         margin: 0 auto;
         font-size: 18px;
         line-height: 1.6;
-        color: #6F767E; // Серый текст
+        color: #6F767E;
     }
 }
 

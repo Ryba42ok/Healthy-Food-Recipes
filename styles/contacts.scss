@@ -1,5 +1,5 @@
 @import 'vars.scss';
-// Миксины для адаптивности
+
 @mixin mobile {
     @media (max-width: 768px) {
         @content;
@@ -19,7 +19,7 @@
     padding-bottom: 80px;
 }
 
-// Hero блок (как на about)
+// Hero блок 
 .contacts-hero {
     background: $green-to-white-gradient;
     text-align: center;
