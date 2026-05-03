@@ -78,31 +78,30 @@
         </div>
 
           <div class="header__mobile-controls">
-    <!-- Новая кнопка лупы для телефона -->
-    <button class="header__search-toggle" id="searchToggle">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-    </button>
-    
-    <!-- Твоя существующая кнопка бургера теперь внутри этого контейнера -->
-    <button class="header__burger" id="burgerBtn">
-        <span></span><span></span><span></span>
-    </button>
-</div>
-
-<!-- Вставляем саму панель поиска СРАЗУ после header__container, но внутри header -->
-<div class="mobile-search" id="mobileSearch">
-    <div class="container">
-        <div class="mobile-search__content">
-            <input type="text" maxlength="50" class="search-bar__input" placeholder="Поиск рецептов...">
-            <button class="mobile-search__close" id="searchClose">✕</button>
+            <button class="header__search-toggle" id="searchToggle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+            
+            <!-- Твоя существующая кнопка бургера теперь внутри этого контейнера -->
+            <button class="header__burger" id="burgerBtn">
+                <span></span><span></span><span></span>
+            </button>
         </div>
-    </div>
-</div>
-    </div>
-</header>
+
+
+        <div class="mobile-search" id="mobileSearch">
+            <div class="container">
+                <div class="mobile-search__content">
+                    <input type="text" maxlength="50" class="search-bar__input" placeholder="Поиск рецептов...">
+                    <button class="mobile-search__close" id="searchClose">✕</button>
+                </div>
+            </div>
+        </div>
+            </div>
+    </header>
 
     <main>
         <section class="catalog-header">
@@ -116,29 +115,22 @@
             <div class="container">
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <h3 class="stat-card__number">35+</h3>
+                        <h2 class="stat-card__number">35+</h2>
                         <p class="stat- card__text">Рецептов</p>
                     </div>
                     <div class="stat-card">
-                        <h3 class="stat-card__number" style="color: #2196F3;">5</h3>
+                        <h2 class="stat-card__number" style="color: #2196F3;">5</h2>
                         <p class="stat-card__text">Категорий</p>
                     </div>
                     <div class="stat-card">
-                        <h3 class="stat-card__number" style="color: #9C27B0;">100%</h3>
+                        <h2 class="stat-card__number" style="color: #9C27B0;">100%</h2>
                         <p class="stat-card__text">Полезно</p>
                     </div>
                     <div class="stat-card">
-                        <h3 class="stat-card__number" style="color: #FF9800;">5K+</h3>
+                        <h2 class="stat-card__number" style="color: #FF9800;">5K+</h2>
                         <p class="stat-card__text">Пользователей</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="catalog-grid">
-            <div class="container">
-                <div class="recipes-grid" id="recipesContainer">
-                    </div>
             </div>
         </section>
 
@@ -229,9 +221,11 @@
         </div>
     </footer>
 
+    <script src="js/burgers.js"></script>
+    <script src="js/catalog.js"></script>
+
+
 </body>
 
-<script src="js/burgers.js"></script>
-<script src="js/catalog.js"></script>
 
 </html>

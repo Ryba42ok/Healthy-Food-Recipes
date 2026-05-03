@@ -75,7 +75,7 @@
     const burgerBtn = document.getElementById('burgerBtn');
     const mobileMenu = document.getElementById('mobileMenu');
 
-    // Открыть поиск
+    // Открыть поиск на мобильных устройствах
     searchToggle.addEventListener('click', () => {
         mobileSearch.classList.add('mobile-search--active');
         // Закрываем меню, если оно открыто
@@ -114,4 +114,27 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileSearch.classList.remove('mobile-search--active');
         });
     }
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdown = document.querySelector('.dropdown');
+    const toggle = document.querySelector('.dropdown__toggle');
+
+    if (toggle) {
+        toggle.addEventListener('click', function (e) {
+            // Если ширина экрана 1024px и меньше (планшеты/телефоны)
+            if (window.innerWidth <= 1024) {
+                e.preventDefault(); // Запрещаем переход по ссылке catalog.html
+                dropdown.classList.toggle('is-active'); // Открываем/закрываем меню
+            }
+        });
+    }
+
+    // Закрываем меню, если пользователь кликнул в другом месте экрана
+    document.addEventListener('click', (e) => {
+        if (dropdown && !dropdown.contains(e.target)) {
+            dropdown.classList.remove('is-active');
+        }
+    });
 });
