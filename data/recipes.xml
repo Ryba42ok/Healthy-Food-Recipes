@@ -14,10 +14,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">12</protein>
-            <carbs unit="г">45</carbs>
-            <fat unit="г">18</fat>
-            <fiber unit="г">10</fiber>
+            <protein>12</protein>
+            <carbs>45</carbs>
+            <fat>18</fat>
+            <fiber>10</fiber>
         </nutrition>
 
         <ingredients>
@@ -56,10 +56,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">16</protein>
-            <carbs unit="г">32</carbs>
-            <fat unit="г">22</fat>
-            <fiber unit="г">12</fiber>
+            <protein>16</protein>
+            <carbs>32</carbs>
+            <fat>22</fat>
+            <fiber>12</fiber>
         </nutrition>
 
         <ingredients>
@@ -95,10 +95,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">8</protein>
-            <carbs unit="г">52</carbs>
-            <fat unit="г">8</fat>
-            <fiber unit="г">12</fiber>
+            <protein>8</protein>
+            <carbs>52</carbs>
+            <fat>8</fat>
+            <fiber>12</fiber>
         </nutrition>
 
         <ingredients>
@@ -135,10 +135,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">18</protein>
-            <carbs unit="г">38</carbs>
-            <fat unit="г">12</fat>
-            <fiber unit="г">6</fiber>
+            <protein>18</protein>
+            <carbs>38</carbs>
+            <fat>12</fat>
+            <fiber>6</fiber>
         </nutrition>
 
         <ingredients>
@@ -173,10 +173,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">10</protein>
-            <carbs unit="г">45</carbs>
-            <fat unit="г">10</fat>
-            <fiber unit="г">8</fiber>
+            <protein>10</protein>
+            <carbs>45</carbs>
+            <fat>10</fat>
+            <fiber>8</fiber>
         </nutrition>
 
         <ingredients>
@@ -212,10 +212,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">22</protein>
-            <carbs unit="г">42</carbs>
-            <fat unit="г">8</fat>
-            <fiber unit="г">6</fiber>
+            <protein>22</protein>
+            <carbs>42</carbs>
+            <fat>8</fat>
+            <fiber>6</fiber>
         </nutrition>
 
         <ingredients>
@@ -252,10 +252,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">11</protein>
-            <carbs unit="г">6</carbs>
-            <fat unit="г">10</fat>
-            <fiber unit="г">2</fiber>
+            <protein>11</protein>
+            <carbs>6</carbs>
+            <fat>10</fat>
+            <fiber>2</fiber>
         </nutrition>
 
         <ingredients>
@@ -293,10 +293,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">35</protein>
-            <carbs unit="г">18</carbs>
-            <fat unit="г">28</fat>
-            <fiber unit="г">8</fiber>
+            <protein>35</protein>
+            <carbs>18</carbs>
+            <fat>28</fat>
+            <fiber>8</fiber>
         </nutrition>
 
         <ingredients>
@@ -333,10 +333,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">8</protein>
-            <carbs unit="г">28</carbs>
-            <fat unit="г">8</fat>
-            <fiber unit="г">10</fiber>
+            <protein>8</protein>
+            <carbs>28</carbs>
+            <fat>8</fat>
+            <fiber>10</fiber>
         </nutrition>
 
         <ingredients>
@@ -375,10 +375,10 @@
         </stats>
 
         <nutrition>
-            <protein unit="г">38</protein>
-            <carbs unit="г">18</carbs>
-            <fat unit="г">16</fat>
-            <fiber unit="г">8</fiber>
+            <protein>38</protein>
+            <carbs>18</carbs>
+            <fat>16</fat>
+            <fiber>8</fiber>
         </nutrition>
 
         <ingredients>
@@ -417,10 +417,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">28</protein>
-        <carbs unit="г">24</carbs>
-        <fat unit="г">16</fat>
-        <fiber unit="г">3</fiber>
+        <protein>28</protein>
+        <carbs>24</carbs>
+        <fat>16</fat>
+        <fiber>3</fiber>
     </nutrition>
 
     <ingredients>
@@ -461,10 +461,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">28</protein>
-        <carbs unit="г">18</carbs>
-        <fat unit="г">8</fat>
-        <fiber unit="г">4</fiber>
+        <protein>28</protein>
+        <carbs>18</carbs>
+        <fat>8</fat>
+        <fiber>4</fiber>
     </nutrition>
 
     <ingredients>
@@ -505,10 +505,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">15</protein>
-        <carbs unit="г">52</carbs>
-        <fat unit="г">20</fat>
-        <fiber unit="г">14</fiber>
+        <protein>15</protein>
+        <carbs>52</carbs>
+        <fat>20</fat>
+        <fiber>14</fiber>
     </nutrition>
 
     <ingredients>
@@ -547,10 +547,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">6</protein>
-        <carbs unit="г">28</carbs>
-        <fat unit="г">12</fat>
-        <fiber unit="г">5</fiber>
+        <protein>6</protein>
+        <carbs>28</carbs>
+        <fat>12</fat>
+        <fiber>5</fiber>
     </nutrition>
 
     <ingredients>
@@ -589,10 +589,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">38</protein>
-        <carbs unit="г">52</carbs>
-        <fat unit="г">12</fat>
-        <fiber unit="г">4</fiber>
+        <protein>38</protein>
+        <carbs>52</carbs>
+        <fat>12</fat>
+        <fiber>4</fiber>
     </nutrition>
 
     <ingredients>
@@ -633,10 +633,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">32</protein>
-        <carbs unit="г">48</carbs>
-        <fat unit="г">8</fat>
-        <fiber unit="г">2</fiber>
+        <protein>32</protein>
+        <carbs>48</carbs>
+        <fat>8</fat>
+        <fiber>2</fiber>
     </nutrition>
 
     <ingredients>
@@ -677,10 +677,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">36</protein>
-        <carbs unit="г">22</carbs>
-        <fat unit="г">18</fat>
-        <fiber unit="г">8</fiber>
+        <protein>36</protein>
+        <carbs>22</carbs>
+        <fat>18</fat>
+        <fiber>8</fiber>
     </nutrition>
 
     <ingredients>
@@ -717,10 +717,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">12</protein>
-        <carbs unit="г">56</carbs>
-        <fat unit="г">8</fat>
-        <fiber unit="г">14</fiber>
+        <protein>12</protein>
+        <carbs>56</carbs>
+        <fat>8</fat>
+        <fiber>14</fiber>
     </nutrition>
 
     <ingredients>
@@ -757,10 +757,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">10</protein>
-        <carbs unit="г">28</carbs>
-        <fat unit="г">4</fat>
-        <fiber unit="г">8</fiber>
+        <protein>10</protein>
+        <carbs>28</carbs>
+        <fat>4</fat>
+        <fiber>8</fiber>
     </nutrition>
 
     <ingredients>
@@ -798,10 +798,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">42</protein>
-        <carbs unit="г">4</carbs>
-        <fat unit="г">22</fat>
-        <fiber unit="г">2</fiber>
+        <protein>42</protein>
+        <carbs>4</carbs>
+        <fat>22</fat>
+        <fiber>2</fiber>
     </nutrition>
 
     <ingredients>
@@ -837,10 +837,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">6</protein>
-        <carbs unit="г">18</carbs>
-        <fat unit="г">10</fat>
-        <fiber unit="г">6</fiber>
+        <protein>6</protein>
+        <carbs>18</carbs>
+        <fat>10</fat>
+        <fiber>6</fiber>
     </nutrition>
 
     <ingredients>
@@ -877,10 +877,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">6</protein>
-        <carbs unit="г">32</carbs>
-        <fat unit="г">14</fat>
-        <fiber unit="г">12</fiber>
+        <protein>6</protein>
+        <carbs>32</carbs>
+        <fat>14</fat>
+        <fiber>12</fiber>
     </nutrition>
 
     <ingredients>
@@ -916,10 +916,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">2</protein>
-        <carbs unit="г">34</carbs>
-        <fat unit="г">1</fat>
-        <fiber unit="г">6</fiber>
+        <protein>2</protein>
+        <carbs>34</carbs>
+        <fat>1</fat>
+        <fiber>6</fiber>
     </nutrition>
 
     <ingredients>
@@ -957,10 +957,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">3</protein>
-        <carbs unit="г">14</carbs>
-        <fat unit="г">5</fat>
-        <fiber unit="г">3</fiber>
+        <protein>3</protein>
+        <carbs>14</carbs>
+        <fat>5</fat>
+        <fiber>3</fiber>
     </nutrition>
 
     <ingredients>
@@ -997,10 +997,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">3</protein>
-        <carbs unit="г">42</carbs>
-        <fat unit="г">1</fat>
-        <fiber unit="г">8</fiber>
+        <protein>3</protein>
+        <carbs>42</carbs>
+        <fat>1</fat>
+        <fiber>8</fiber>
     </nutrition>
 
     <ingredients>
@@ -1037,10 +1037,10 @@
     </stats>
 
     <nutrition>
-        <protein unit="г">2</protein>
-        <carbs unit="г">28</carbs>
-        <fat unit="г">0</fat>
-        <fiber unit="г">1</fiber>
+        <protein>2</protein>
+        <carbs>28</carbs>
+        <fat>0</fat>
+        <fiber>1</fiber>
     </nutrition>
 
     <ingredients>
