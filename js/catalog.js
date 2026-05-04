@@ -3,10 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const countLabel = document.getElementById('recipeCount');
     const searchInputs = document.querySelectorAll('.search-bar__input');
     
-    // Определяем, на какой мы странице
     const isSearchPage = document.body.dataset.category === 'search';
     
-    // Получаем запрос из URL (например, ?query=лосось)
     const urlParams = new URLSearchParams(window.location.search);
     const queryFromUrl = urlParams.get('query');
 
@@ -46,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Если это страница поиска, меняем заголовок
         const titleTag = document.getElementById('searchTitle');
 if (isSearchPage && titleTag) {
-    // Если filterText пустой или null, пишем "Все рецепты", иначе - сам запрос
     const displayText = filterText && filterText !== "null" ? `"${filterText}"` : "Все рецепты";
     titleTag.textContent = `Результаты по запросу: ${displayText}`;
 }
@@ -55,9 +52,7 @@ if (isSearchPage && titleTag) {
             const title = recipe.querySelector('title').textContent;
             const category = recipe.querySelector('category').textContent;
             
-            // Логика фильтрации:
-            // 1. Если мы на странице поиска — ищем по тексту
-            // 2. Если мы в категории (завтраки и т.д.) — фильтруем по категории
+
             let shouldShow = false;
             
             if (isSearchPage) {

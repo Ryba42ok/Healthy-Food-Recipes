@@ -8,7 +8,7 @@
                 e.stopPropagation();
                 this.classList.toggle('active');
                 mobileMenu.classList.toggle('active');
-                console.log('Burger clicked'); // Для отладки
+    
             });
         }
         
@@ -22,7 +22,7 @@
                 e.stopPropagation();
                 this.classList.toggle('active');
                 mobileDropdownMenu.classList.toggle('active');
-                console.log('Dropdown clicked'); // Для отладки
+            
             });
         }
         
@@ -123,15 +123,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (toggle) {
         toggle.addEventListener('click', function (e) {
-            // Если ширина экрана 1024px и меньше (планшеты/телефоны)
+            
             if (window.innerWidth <= 1024) {
-                e.preventDefault(); // Запрещаем переход по ссылке catalog.html
-                dropdown.classList.toggle('is-active'); // Открываем/закрываем меню
+                e.preventDefault(); 
+                dropdown.classList.toggle('is-active'); 
             }
         });
     }
 
-    // Закрываем меню, если пользователь кликнул в другом месте экрана
+    
     document.addEventListener('click', (e) => {
         if (dropdown && !dropdown.contains(e.target)) {
             dropdown.classList.remove('is-active');
