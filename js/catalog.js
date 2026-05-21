@@ -93,7 +93,7 @@ if (isSearchPage && titleTag) {
     card.className = 'recipe-card'; 
 
     card.innerHTML = `
-        <a href="recipe/recipe.html?id=${id}" class="recipe-card__link">
+        <a href="recipe.html?id=${id}" class="recipe-card__link">
             <div class="recipe-card__image-wrapper">
                 <img src="data/${img}" alt="${title}" class="recipe-card__image">
                 <span class="recipe-card__badge">${difficulty}</span>
