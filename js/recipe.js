@@ -7,7 +7,7 @@
         return;
     }
 
-    fetch('../data/recipes.xml') 
+    fetch('data/recipes.xml') 
         .then(res => {
             if (!res.ok) throw new Error('Ошибка загрузки XML');
             return res.text();
