@@ -34,7 +34,7 @@
          
         // Картинка (поднимаемся выше в корень и идем в папку data)
         const imageFile = recipe.querySelector('image').textContent;
-        document.getElementById('mainImage').src = '../data/' + imageFile;
+        document.getElementById('mainImage').src = 'data/' + imageFile;
 
         // 2. Статистика (внутри <stats>)
         const stats = recipe.querySelector('stats');
