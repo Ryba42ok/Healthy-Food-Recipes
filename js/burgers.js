@@ -25,7 +25,7 @@
             
             });
         }
-        
+         
         // Закрытие мобильного меню при клике на ссылку
         const mobileLinks = document.querySelectorAll('.mobile-nav-list__link:not(.mobile-dropdown__toggle), .mobile-dropdown__link');
         mobileLinks.forEach(link => {

@@ -31,7 +31,7 @@
         document.getElementById('recipeTitle').textContent = recipe.querySelector('title').textContent;
         document.getElementById('recipeDesc').textContent = recipe.querySelector('description').textContent;
         document.getElementById('categoryBadge').textContent = recipe.querySelector('category').textContent;
-        
+         
         // Картинка (поднимаемся выше в корень и идем в папку data)
         const imageFile = recipe.querySelector('image').textContent;
         document.getElementById('mainImage').src = '../data/' + imageFile;

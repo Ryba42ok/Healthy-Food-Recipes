@@ -91,7 +91,7 @@ if (isSearchPage && titleTag) {
 
     const card = document.createElement('div');
     card.className = 'recipe-card'; 
-
+ 
     card.innerHTML = `
         <a href="recipe.html?id=${id}" class="recipe-card__link">
             <div class="recipe-card__image-wrapper">
